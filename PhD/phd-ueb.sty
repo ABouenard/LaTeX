@@ -1,0 +1,610 @@
+%%
+%%
+%%  A LaTeX template for formating a PhD thesis under the requirements
+%%  of the Universite Europeenne de Bretagne (UEB)
+%%
+%%  Designed by Alexandre Bouenard 
+%%  contact: abouenard@gmail.com
+%%
+%%
+
+\NeedsTeXFormat{LaTeX2e}
+\typeout{}
+\typeout{-------------------------------------------------------------------------------------------------}
+\typeout{-------------------------------------------------------------------------------------------------}
+\typeout{}
+\typeout{                                       PhD Template                                              }
+\typeout{                              Designed by Alexandre Bouenard                                     }
+\typeout{                               contact: abouenard@gmail.com                                      }
+\typeout{}
+\typeout{-------------------------------------------------------------------------------------------------}
+\typeout{-------------------------------------------------------------------------------------------------}
+\typeout{}
+
+\RequirePackage{latexsym}
+\RequirePackage{makeidx}
+\RequirePackage{calc}
+\RequirePackage{ifthen}
+\RequirePackage{float}
+\RequirePackage[english]{babel}
+\RequirePackage{eso-pic}
+\RequirePackage[absolute]{textpos}
+\RequirePackage[avantgarde]{quotchap}
+\RequirePackage{fancyhdr}
+\RequirePackage{multicol}
+\RequirePackage{multirow}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{tabularx}
+\RequirePackage{epsfig, amssymb, amsmath}
+\RequirePackage{graphics} 
+\RequirePackage{moreverb}
+\RequirePackage{url}
+\RequirePackage[all]{xy}
+\RequirePackage{shorttoc}
+\RequirePackage{textcomp}
+\RequirePackage[right]{eurosym}
+\RequirePackage[lined, algonl, ruled, algochapter]{algorithm2e}
+\RequirePackage{ifthen}
+\RequirePackage{subfigure}
+\RequirePackage{array}
+
+\setlength{\hoffset}{0mm}
+\setlength{\voffset}{0mm}
+\setlength{\paperheight}{297mm}%{11in}%{297mm}
+\setlength{\paperwidth}{210mm}%{8.5in}%{210mm}
+\setlength{\textwidth}{145mm}
+\setlength{\marginparwidth}{0mm}
+\setlength{\headheight}{2\baselineskip}
+\setlength{\textheight}{210mm}
+\setlength{\evensidemargin}{0mm}
+\setlength{\oddsidemargin}{15mm}
+\renewcommand{\ps@plain}{
+	\renewcommand{\@oddhead}{}
+	\renewcommand{\@evenhead}{}
+	\renewcommand{\@evenfoot}{\hfil\textrm{\thepage}\hfil}
+	\renewcommand{\@oddfoot}{\@evenfoot}
+}
+\renewcommand{\ps@headings}{
+	\renewcommand{\@oddhead}{\parbox{210mm}{\leftmark\hfil\thepage}}
+	\renewcommand{\@evenhead}{\parbox{210mm}{\thepage\hfil\rightmark}}
+	\renewcommand{\@evenfoot}{}
+	\renewcommand{\@oddfoot}{\@evenfoot}
+}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\addtocounter{secnumdepth}{1}
+\AtBeginDocument{
+	\makeindex
+	\def\uppercase{}
+	\newcounter{cptReviewer}
+	\setcounter{cptReviewer}{0}
+	\newcounter{cptExaminer}
+	\setcounter{cptExaminer}{0}
+	\newcounter{cptAdvisor}
+	\setcounter{cptAdvisor}{0}
+	\newcounter{III}
+	\newcounter{cptBiblioSection}
+	\setcounter{cptBiblioSection}{0}
+}
+\AtEndDocument{
+}
+\newcommand{\ignore}[1]{}
+\newcommand{\rmq}[1]{{\noindent\texttt{\textbf{Remarque:}#1}}}
+\newcommand{\nohyphens}{\hyphenpenalty=10000\exhyphenpenalty=10000\relax}
+\renewcommand\chapterheadstartvskip{\vspace*{-5\baselineskip}}
+\newcommand{\forloop}[5][1]{\setcounter{#2}{#3} \ifthenelse{#4} { #5 \addtocounter{#2}{#1} \forloop[#1]{#2}{\value{#2}}{#4}{#5} }  Else { } } 
+\newcommand{\myfigname}{\textsc{Fig. }}
+\newcommand{\mytabname}{\textsc{Tab. }}
+\newcommand{\myequname}{\textsc{Equ. }}
+\newcommand{\myalgname}{\textsc{Alg. }}
+\newcolumntype{x}[1]{>{\centering\hspace{0pt}}p{#1}}
+\fancypagestyle{plain}{
+	\fancyhf{}
+	\fancyfoot[C]{\bfseries \thepage} 
+	\renewcommand{\headrulewidth}{0pt} 
+	\renewcommand{\footrulewidth}{0.4pt}
+} 
+
+\newcommand{\lang}[1]{
+	\ifthenelse{\equal{#1}{french}}{
+		\newcommand{\THESE}{TH{\`E}SE}
+		\newcommand{\SCEAU}{sous le sceau de l'Universit{\'e} Europ{\'e}enne de Bretagne}
+		\newcommand{\GRADEPREAMB}{Pour obtenir le grade de :}
+		\newcommand{\GRADE}{DOCTEUR DE L'UNIVERSIT{\'E} DE BRETAGNE SUD}
+		\newcommand{\MENTIONPREAMB}{Mention :}
+		\newcommand{\EDPREAMB}{{\'E}cole Doctorale}
+		\newcommand{\PRESENTPREAMB}{pr{\'e}sent{\'e}e par}
+		\newcommand{\DATEPREAMB}{Th{\`e}se soutenue le}
+		\newcommand{\COMMISIONPREAMB}{devant la commission d'examen compos{\'e}e de :}
+	}{
+		\ifthenelse{\equal{#1}{english}}{
+			\newcommand{\THESE}{Ph.D. THESIS}
+			\newcommand{\SCEAU}{delivered by the Universit{\'e} Europ{\'e}enne de Bretagne}
+			\newcommand{\GRADEPREAMB}{For obtaining the degree of:}
+			\newcommand{\GRADE}{DOCTOR OF PHILOSOPHY of the UNIVERSIT{\'E} DE BRETAGNE SUD}
+			\newcommand{\MENTIONPREAMB}{Mention:}
+			\newcommand{\EDPREAMB}{Doctoral College}
+			\newcommand{\PRESENTPREAMB}{presented by}
+			\newcommand{\DATEPREAMB}{Ph.D. Thesis defended on}
+			\newcommand{\COMMISIONPREAMB}{for the examination commitee composed of:}
+		}{}
+	}
+}
+\newcommand{\UNIV}{Universit{\'e} de Bretagne Sud}
+\newcommand{\UNIVaddress}{Universit{\'e} de Bretagne Sud}
+\newcommand{\UFR}{UFR Sciences et Sciences de l'Ing{\'e}nieur}
+\newcommand{\MENTION}{STIC}
+\newcommand{\ED}{SICMA}
+\newcommand{\AUTHORprenom}{Gaston}
+\newcommand{\AUTHORnom}{Lagaffe}
+\newcommand{\LAB}{Laboratoire de Recherche Informatique et ses Applications de Vannes et Lorient}
+\newcommand{\TITLE}{Conception et Evaluation\\ d'une Tondeuse\\ {\`a} Gazon Miniature}
+\newcommand{\DATE}{28 F{\'e}vrier 1957}
+\newcommand{\PRESIDENTgenre}{M}
+\newcommand{\PRESIDENTtitle}{Pr{\'e}sident}
+\newcommand{\PRESIDENTforname}{L{\'e}on}
+\newcommand{\PRESIDENTname}{Prunelle}
+\newcommand{\PRESIDENTquality}{R{\'e}dacteur, Spirou Magasine}
+\newcommand{\REVIEWERgenrei}{M}
+\newcommand{\REVIEWERtitle}{Rapporteur}
+\newcommand{\REVIEWERfornamei}{Joseph}
+\newcommand{\REVIEWERnamei}{Boulier}
+\newcommand{\REVIEWERqualityi}{Tr{\'e}sorier, Editions Dupuis}
+\newcommand{\EXAMINERgenrei}{M}
+\newcommand{\EXAMINERtitle}{Examinateur}
+\newcommand{\EXAMINERfornamei}{Yves}
+\newcommand{\EXAMINERnamei}{Lebrac}
+\newcommand{\EXAMINERqualityi}{Dessinateur, Spirou Magasine}
+\newcommand{\ADVISORgenrei}{M}
+\newcommand{\ADVISORtitle}{Directeur de th{\`e}se}
+\newcommand{\ADVISORtitlei}{Directeur de th{\`e}se}
+\newcommand{\ADVISORfornamei}{Jules}
+\newcommand{\ADVISORnamei}{de-chez-Smith-en-face}
+\newcommand{\ADVISORqualityi}{Complice, Smith}
+\newcommand{\CITATION}{Une citation, par{\^i}t que \c{c}a en prend une. M'enfin!!}
+\newcommand{\CITATIONAUTHOR}{Gaston Lagaffe}
+\newcommand{\ABSTRACTfrench}{Une super th{\`e}se traitant d'une nouvelle super invention de Gaston : la tondeuse {\`a} gazon miniature.}
+\newcommand{\ABSTRACTenglish}{An awesome PhD thesis dealing with a brand new invention designed by Gaston: a miniature lawn mower.}
+\newcommand{\ABSTRACTtitle}{Conception et Evaluation\\ d'une Tondeuse\\ {\`a} Gazon Miniature}
+\newcommand{\KEYWORDSfrench}{Gaston, Tondeuse, Gazon.}
+\newcommand{\KEYWORDSenglish}{Gaston, Mower, Lawn.}
+\newcommand{\NUMORDER}{000000000}
+\newcommand{\ACKNOWLEDGMENTS}{Remerciements.}
+\newcommand{\BIBLIOSECTIONnameabbrv}{A}
+\newcommand{\BIBLIOSECTIONnameabbrvi}{A}
+\newcommand{\BIBLIOSECTIONname}{A}
+\newcommand{\BIBLIOSECTIONnamei}{A}
+\newcommand{\namesectionstyle}{A}
+\newcommand{\namesection}{A}
+
+\newcommand{\FRONTCOVER}[6]{
+	\thispagestyle{empty}
+	\begin{textblock*}{.5\paperwidth-2mm}(0mm,{#2}\paperwidth-32mm)
+		\noindent\mbox{
+			\begin{minipage}{.5\paperwidth-2mm}
+        		\vspace{3pt}
+				\noindent \flushright \small \textcolor{white}{\fontfamily{phv}\selectfont \textbf{\THESE}}
+				\noindent \flushright \tiny \textcolor{white}{\fontfamily{phv}\selectfont \SCEAU}
+				\vspace{-3pt}
+				\noindent \flushright \tiny \textcolor{white}{\fontfamily{phv}\selectfont \GRADEPREAMB}
+				\vspace{-8pt}
+				\noindent \flushright \tiny \textcolor{white}{\fontfamily{phv}\selectfont \textbf{\GRADE}}
+				\vspace{-8pt}
+				\noindent \flushright \tiny \textcolor{white}{\fontfamily{phv}\selectfont \MENTIONPREAMB \ \MENTION}
+				\vspace{-8pt}
+				\noindent \flushright \tiny \textcolor{white}{\fontfamily{phv}\selectfont \textbf{\EDPREAMB \ \ED}} \hspace{0.5pt}
+			\end{minipage}
+		}
+	\end{textblock*}
+
+	\begin{textblock*}{.5\paperwidth-2mm}(.5\paperwidth+2mm,{#2}\paperwidth-32mm)
+		\noindent\mbox{
+			\begin{minipage}{.5\paperwidth-2mm}
+				\vspace{2.5mm}
+				\noindent \flushleft \tiny \textcolor{white}{\fontfamily{phv}\selectfont \PRESENTPREAMB}
+				\vspace{-10pt}
+				\noindent \flushleft \LARGE \textcolor{white}{\fontfamily{phv}\selectfont \AUTHORprenom\ \AUTHORnom}
+				\vspace{-4.5pt}
+				\noindent \flushleft \small \textcolor{white}{\fontfamily{phv}\selectfont \LAB}
+			\end{minipage}
+		}
+	\end{textblock*}
+
+	\begin{textblock*}{.5\paperwidth-2mm}(0mm,{#2}\paperwidth+1mm)
+		\noindent\mbox{
+			\begin{minipage}{.5\paperwidth-7pt}
+				\noindent \flushright \huge \textcolor{black}{\fontfamily{phv}\selectfont \textbf{\TITLE}}
+			\end{minipage}
+		}
+	\end{textblock*}
+
+	\begin{textblock*}{.5\paperwidth-2mm}(.5\paperwidth+2mm,{#2}\paperwidth)
+		\noindent\mbox{
+			\begin{minipage}{.5\paperwidth-2mm}
+				\vspace{1mm}
+				\noindent \flushleft \scriptsize \textcolor{black}{\fontfamily{phv}\selectfont \textbf{\DATEPREAMB \ \DATE}}
+				\vspace{-9pt}
+				\noindent \flushleft \scriptsize \textcolor{black}{\fontfamily{phv}\selectfont \COMMISIONPREAMB}
+
+				\noindent \flushleft \scriptsize \textcolor{black}{\fontfamily{phv}\selectfont \textbf{\PRESIDENTforname\ \PRESIDENTname}}
+				\vspace{-9pt}
+				\noindent \flushleft \scriptsize \textcolor{black}{\fontfamily{phv}\selectfont \PRESIDENTquality\ / \PRESIDENTtitle}
+
+				\setcounter{III}{0}
+				\whiledo{{\value{III}<\value{cptReviewer}}}{
+					\stepcounter{III}
+					\vspace{-5pt}
+					\noindent \flushleft \hspace{-5pt} \scriptsize \textcolor{black}{\fontfamily{phv}\selectfont \textbf{
+						{\csname REVIEWERforname\roman{III}\endcsname}\ {\csname REVIEWERname\roman{III}\endcsname}}
+					}
+					\vspace{-9pt}
+					\noindent \flushleft \scriptsize \textcolor{black}{\fontfamily{phv}\selectfont
+						{\csname REVIEWERquality\roman{III}\endcsname}\ / {\csname REVIEWERtitle\roman{III}\endcsname}
+					}
+				}
+
+				\setcounter{III}{0}
+				\whiledo{{\value{III}<\value{cptExaminer}}}{
+					\stepcounter{III}
+					\vspace{-5pt}
+					\noindent \flushleft \hspace{-5pt} \scriptsize \textcolor{black}{\fontfamily{phv}\selectfont \textbf{
+						{\csname EXAMINERforname\roman{III}\endcsname}\ {\csname EXAMINERname\roman{III}\endcsname}}
+					}
+					\vspace{-9pt}
+					\noindent \flushleft \scriptsize \textcolor{black}{\fontfamily{phv}\selectfont
+						{\csname EXAMINERquality\roman{III}\endcsname}\ / {\csname EXAMINERtitle\roman{III}\endcsname}
+					}
+				}
+
+				\setcounter{III}{0}
+				\whiledo{{\value{III}<\value{cptAdvisor}}}{
+					\stepcounter{III}
+					\vspace{-5pt}
+					\noindent \flushleft \hspace{-5pt} \scriptsize \textcolor{black}{\fontfamily{phv}\selectfont \textbf{
+						{\csname ADVISORforname\roman{III}\endcsname}\ {\csname ADVISORname\roman{III}\endcsname}}
+					}
+					\vspace{-9pt}
+					\noindent \flushleft \scriptsize \textcolor{black}{\fontfamily{phv}\selectfont
+						{\csname ADVISORquality\roman{III}\endcsname}\ / {\csname ADVISORtitle\roman{III}\endcsname}
+					}
+				}
+			\end{minipage}
+		}
+	\end{textblock*}
+
+	\begin{textblock*}{\paperwidth}(0mm, 0mm)
+%		\noindent\includegraphics[width=\paperwidth, height={#2}\paperwidth, bb= #3 #4 #5 #6]{#1}
+		\noindent\includegraphics[width=\paperwidth, height={#2}\paperwidth]{#1}
+	\end{textblock*}
+}
+\newcommand{\makeFrontCover}[6]{
+	\FRONTCOVER{#1}{#2}{#3}{#4}{#5}{#6}
+}
+
+\newcommand{\Title}[1]{\renewcommand{\TITLE}{{\LARGE\textbf{#1}}}}
+\newcommand{\PresentationDate}[1]{\renewcommand{\DATE}{#1}}
+\newcommand{\Author}[2]{
+	\renewcommand{\AUTHORprenom}{#1}
+	\renewcommand{\AUTHORnom}{#2}
+}
+\newcommand{\Institution}[4]{
+	\renewcommand{\UNIV}{#1}
+	\renewcommand{\UNIVaddress}{#2}
+	\renewcommand{\UFR}{#3}
+	\renewcommand{\LAB}{#4}
+}
+\newcommand{\President}[5]{
+	\renewcommand{\PRESIDENTgenre}{#1}
+	\ifthenelse{\equal{#1}{Me}}{\renewcommand{\PRESIDENTtitle}{Pr{\'e}sidente}}{}
+	\renewcommand{\PRESIDENTforname}{#2}
+	\renewcommand{\PRESIDENTname}{#3}
+	\renewcommand{\PRESIDENTquality}{#4}
+	\renewcommand{\PRESIDENTtitle}{#5}
+}
+\newcommand{\Reviewer}[5]{
+	\stepcounter{cptReviewer}
+	\newReviewer{\roman{cptReviewer}}{#1}{#2}{#3}{#4}{#5}
+}
+\newcommand{\newReviewer}[6]{
+	\expandafter\def\csname REVIEWERgenre#1\endcsname{#2}
+	\expandafter\def\csname REVIEWERforname#1\endcsname{#3}
+	\expandafter\def\csname REVIEWERname#1\endcsname{#4}
+	\expandafter\def\csname REVIEWERquality#1\endcsname{#5}
+	\expandafter\def\csname REVIEWERtitle#1\endcsname{#6}
+}
+\newcommand{\Examiner}[5]{
+	\stepcounter{cptExaminer}
+	\newExaminer{\roman{cptExaminer}}{#1}{#2}{#3}{#4}{#5}
+}
+\newcommand{\newExaminer}[6]{
+	\expandafter\def\csname EXAMINERgenre#1\endcsname{#2}
+	\expandafter\def\csname EXAMINERforname#1\endcsname{#3}
+	\expandafter\def\csname EXAMINERname#1\endcsname{#4}
+	\expandafter\def\csname EXAMINERquality#1\endcsname{#5}
+	\expandafter\def\csname EXAMINERtitle#1\endcsname{#6}
+}
+\newcommand{\Advisor}[5]{
+	\stepcounter{cptAdvisor}
+	\newAdvisor{\roman{cptAdvisor}}{#1}{#2}{#3}{#4}{#5}
+}
+\newcommand{\newAdvisor}[6]{
+	\expandafter\def\csname ADVISORgenre#1\endcsname{#2}
+	\expandafter\def\csname ADVISORforname#1\endcsname{#3}
+	\expandafter\def\csname ADVISORname#1\endcsname{#4}
+	\expandafter\def\csname ADVISORquality#1\endcsname{#5}
+	\expandafter\def\csname ADVISORtitle#1\endcsname{#6}
+}
+
+\newcommand{\Citation}[2]{
+        \renewcommand{\CITATION}{#1}
+        \renewcommand{\CITATIONAUTHOR}{#2}
+}
+\newcommand{\makeCitation}{
+	\begin{flushright}
+		\begin{tabular}{r}
+	   		\parbox[t][0.5in]{3in}{}\\
+	   		\parbox[t][2.1in]{3in}{{\large "} \small{\fontfamily{phv}\selectfont \CITATION} {\large "}}\\ \\
+			\parbox[t][0.5in]{3in}{{\scriptsize \fontfamily{phv}\selectfont \CITATIONAUTHOR}}
+		\end{tabular}
+	\end{flushright}
+}
+
+\newcommand{\Abstracts}[3]{
+    \renewcommand{\ABSTRACTtitle}{#1}
+	\renewcommand{\ABSTRACTfrench}{#2}
+	\renewcommand{\ABSTRACTenglish}{#3}
+}
+\newcommand{\KeyWords}[2]{
+	\renewcommand{\KEYWORDSfrench}{#1}
+	\renewcommand{\KEYWORDSenglish}{#2}
+}
+\newcommand{\makeAbstracts}{
+	\chapter*{Abstracts}
+	\addcontentsline{toc}{chapter}{Abstracts}
+	\markboth{Abstracts}{Abstracts}
+	
+    \begin{textblock*}{.5\paperwidth-2cm}(1.5cm, 6cm)
+		\noindent\mbox{
+			\begin{minipage}{.5\paperwidth-2cm}
+				\begin{center}
+					\normalsize \fontfamily{phv}\selectfont \textbf{R{\'e}sum{\'e}}
+				\end{center}
+				\fontsize{10}{10} \fontfamily{phv}\selectfont \ABSTRACTfrench
+			\end{minipage}
+		}
+	\end{textblock*}
+	
+    \begin{textblock*}{.5\paperwidth-2cm}(1.5cm, 25cm)
+		\noindent\mbox{
+			\begin{minipage}{.5\paperwidth-2cm}
+				\fontsize{10}{10} \fontfamily{phv}\selectfont \textbf{Mots cl{\'e} :} \KEYWORDSfrench
+			\end{minipage}
+		}
+	\end{textblock*}
+	
+	\begin{textblock*}{.5\paperwidth-2cm}(.5\paperwidth+2.5mm, 6cm)
+		\noindent\mbox{
+			\begin{minipage}{.5\paperwidth-2cm}
+				\begin{center}
+					\normalsize \fontfamily{phv}\selectfont \textbf{Abstract}
+				\end{center}
+				\fontsize{10}{10} \fontfamily{phv}\selectfont \ABSTRACTenglish
+			\end{minipage}
+		}
+	\end{textblock*}
+
+    \begin{textblock*}{.5\paperwidth-2cm}(.5\paperwidth+2.5mm, 25cm)
+		\noindent\mbox{
+			\begin{minipage}{.5\paperwidth-2cm}
+				\fontsize{10}{10} \fontfamily{phv}\selectfont \textbf{Key words:} \KEYWORDSenglish
+			\end{minipage}
+		}
+	\end{textblock*}
+}
+
+\newcommand{\Acknowledgments}[1]{
+	\renewcommand{\ACKNOWLEDGMENTS}{#1}
+}
+\newcommand{\makeAcknowledgments}[1]{
+	\chapter*{Acknowledgments}
+	\addcontentsline{toc}{chapter}{Acknowledgments}
+	\markboth{Acknowledgments}{Acknowledgments}
+
+	\ACKNOWLEDGMENTS
+}
+
+\newcommand{\BiblioSection}[2]{
+	\stepcounter{cptBiblioSection}
+	\newBiblioSection{\roman{cptBiblioSection}}{#1}{#2}
+}
+\newcommand{\newBiblioSection}[3]{
+	\expandafter\def\csname BIBLIOSECTIONnameabbrv#1\endcsname{#2}
+	\expandafter\def\csname BIBLIOSECTIONname#1\endcsname{#3}
+}
+\newcommand{\concat}[2]{#1\\#2}
+\newcommand{\mybibliography}[1]{
+	\ifthenelse{\equal{\value{cptBiblioSection}}{0}}{
+		\chapter{Bibliography}
+		\markboth{Bibliography}{Bibliography}
+		\bibliographystyle{alpha}
+		\bibliography{#1}
+	}{
+		\chapter{Bibliography}
+		\markboth{Bibliography}{Bibliography}
+
+%		\bibliographystyle{alpha}
+%		\bibliography{#1}
+
+%		\setcounter{III}{1}
+%		\whiledo{\not{\value{III} > \value{cptSectionBibliographique}}}{
+%			\typeout{\csname SECTIONBIBLIOnomabbrv\roman{III}\endcsname}
+%			\renewcommand{\nomsection}{\csname SECTIONBIBLIOnomabbrv\roman{III}\endcsname}
+%			\typeout{\nomsection}
+%			\typeout{\bibliographystyle\nomsection}
+%			\typeout{\bibliography\nomsection}
+%			\bibliographystyle\nomsection{alpha}
+%			\thebibliography\nomsection{#1}
+%			\stepcounter{III}
+%		}
+
+		\fancyhead[RO]{\slshape Computer Animation} 
+		\fancyhead[LE]{\slshape Bibliography}
+		\fancyhead[LO, RE]{} 
+		\bibliographystyleCGA{alpha}
+		\bibliographyCGA{#1}
+		\newpage
+		\fancyhead[RO]{\slshape Computer Music} 
+		\bibliographystyleCM{alpha}
+		\bibliographyCM{#1}
+		\newpage
+		\fancyhead[RO]{\slshape Instrumental Performance Analysis} 
+		\bibliographystyleIPA{alpha}
+		\bibliographyIPA{#1}
+	}
+}
+
+\setcounter{secnumdepth}{7}
+\setcounter{tocdepth}{7}
+\makeatletter
+	\def\subsubsubsection{\@startsection{paragraph}{2}{\z@}{10pt plus 1pt minus 1pt}{10pt plus 1pt minus 1pt}{\small\bf}}
+	\def\subsubsubsubsection{\@startsection{subparagraph}{3}{\z@}{9pt plus 1pt minus 1pt}{9pt plus 1pt minus 1pt}{\small\bf}}
+	\newcounter{subsubparagraph}[subparagraph]
+	\renewcommand\thesubsubparagraph{\thesubparagraph.\@arabic\c@subsubparagraph}
+	\newcommand\subsubparagraph{\@startsection{subsubparagraph}{6}{2\parindent}{3.25ex \@plus1ex \@minus .2ex}{-1em}{\normalfont\normalsize	\bfseries}}
+
+	\newcommand*\l@subsubparagraph{\@dottedtocline{6}{14em}{7em}}
+
+	\renewcommand{\fnum@figure}[1]{\textbf{\textsc{Fig.~\thefigure.}}}
+	\renewcommand{\fnum@table}[1]{\textbf{\textsc{Tab.~\thetable.}}}
+	\renewcommand{\algorithmcfname}{\textsc{Alg.}}
+
+	\def\thebibliography#1{
+		\section{\bibname}
+		\markboth{\bibname}{\bibname}
+		\list{[\arabic{enumi}]}{
+			\settowidth\labelwidth{[#1]}\leftmargin\labelwidth
+			\advance\leftmargin\labelsep
+			\usecounter{enumi}
+		}
+		\def\newblock{\hskip .11em plus .33em minus .07em}
+		\sloppy\clubpenalty4000\widowpenalty4000
+		\sfcode`\.=1000\relax
+	}
+	\def\listoffigures{
+		\chapter{\listfigurename}
+		\markboth{\listfigurename}{\listfigurename}
+		\@starttoc{lof}
+	}
+	\def\listoftables{
+		\chapter{\listtablename}
+		\markboth{\listtablename}{\listtablename}
+		\@starttoc{lot}
+	}
+	\providecommand{\eqcaption}[1]{
+	    \addcontentsline{loe}
+	    {section}
+	    {\numberline {\theequation} {\ignorespaces #1}}
+	}
+	\def\listofequations{
+		\chapter{List of Equations}
+		\markboth{List of Equations}{List of Equations}
+		\@starttoc{loe}
+	}
+	\def\listofalgorithms{
+		\chapter{List of Algorithms}
+		\markboth{List of Algorithms}{List of Algorithms}
+		\@starttoc{loa}
+	}
+	
+	\def\@chapter[#1]#2{
+		\ifnum \c@secnumdepth >\m@ne
+			\refstepcounter{chapter}%
+			\typeout{\@chapapp\space\thechapter.}%
+			\addcontentsline{toc}{chapter}%
+			{\protect\numberline{\thechapter}#2}%
+		\else
+			\addcontentsline{toc}{chapter}{#2}%
+		\fi
+		\chaptermark{#1}%
+		\addtocontents{lof}{\protect\addvspace{10\p@}}%
+		\addtocontents{lot}{\protect\addvspace{10\p@}}%
+		\addtocontents{loe}{\protect\addvspace{10\p@}}%
+		\if@twocolumn
+			\@topnewpage[\@makechapterhead{#2}]%
+		\else
+			\@makechapterhead{#2}%
+			\@afterheading
+		\fi
+	}
+\makeatother
+
+\newcommand{\numOrder}[1]{
+        \renewcommand{\NUMORDER}{#1}
+}
+\newcommand{\makeFourthCover}{
+	\newpage\thispagestyle{empty}~
+	\ifodd\value{page}
+		\newpage\thispagestyle{empty}
+	\else
+		\newpage\thispagestyle{empty}~\newpage\thispagestyle{empty}
+	\fi
+
+    \begin{textblock*}{.5\paperwidth-2cm}(1.5cm, 4cm)
+		\noindent\mbox{
+			\begin{minipage}{.5\paperwidth-2cm}
+				\begin{center}
+					\normalsize \fontfamily{phv}\selectfont \textbf{R{\'e}sum{\'e}}
+				\end{center}
+				\fontsize{10}{10} \fontfamily{phv}\selectfont \ABSTRACTfrench
+			\end{minipage}
+		}
+	\end{textblock*}
+	
+    \begin{textblock*}{.5\paperwidth-2cm}(1.5cm, 23cm)
+		\noindent\mbox{
+			\begin{minipage}{.5\paperwidth-2cm}
+				\fontsize{10}{10} \fontfamily{phv}\selectfont \textbf{Mots cl{\'e} :} \KEYWORDSfrench
+			\end{minipage}
+		}
+	\end{textblock*}
+	
+	\begin{textblock*}{.5\paperwidth-2cm}(.5\paperwidth+2.5mm, 4cm)
+		\noindent\mbox{
+			\begin{minipage}{.5\paperwidth-2cm}
+				\begin{center}
+					\normalsize \fontfamily{phv}\selectfont \textbf{Abstract}
+				\end{center}
+				\fontsize{10}{10} \fontfamily{phv}\selectfont \ABSTRACTenglish
+			\end{minipage}
+		}
+	\end{textblock*}
+	
+    \begin{textblock*}{.5\paperwidth-2cm}(.5\paperwidth+2.5mm, 23cm)
+		\noindent\mbox{
+			\begin{minipage}{.5\paperwidth-2cm}
+				\fontsize{10}{10} \fontfamily{phv}\selectfont \textbf{Key words:} \KEYWORDSenglish
+			\end{minipage}
+		}
+	\end{textblock*}
+	
+	\begin{textblock*}{\paperwidth-2cm}(1.5cm, 26cm)
+        	\noindent\mbox{
+			\begin{minipage}{\paperwidth-2cm}
+%				\noindent\includegraphics[width=3.5cm, height=1.89cm, bb= 0 0 172 92]{./Logos/Pdf/logo-UBS-2.pdf}
+				\noindent\includegraphics[width=3.5cm, height=1.89cm]{./Logos/Pdf/logo-UBS-2.pdf}
+	        	\end{minipage}
+                }
+	\end{textblock*}
+	
+	\begin{textblock*}{\paperwidth-2cm}(5.5cm, 26cm)
+		\noindent\mbox{
+			\begin{minipage}{\paperwidth-2cm}
+					\noindent \flushleft \small \fontfamily{phv}\selectfont $N^o$ $d'ordre$ : \NUMORDER
+					\vspace{-8pt}
+					\noindent \flushleft \small \fontfamily{phv}\selectfont \textbf{\UNIV}
+					\vspace{-8pt}
+					\noindent \flushleft \scriptsize \fontfamily{phv}\selectfont \UNIVaddress
+			\end{minipage}
+		}
+	\end{textblock*}
+}
