@@ -1,0 +1,272 @@
+%%
+%%
+%%  A LaTeX template for formating a report
+%%
+%%  Designed by Alexandre Bouenard 
+%%  contact: abouenard@gmail.com
+%%
+%%
+
+\NeedsTeXFormat{LaTeX2e}
+\typeout{}
+\typeout{-------------------------------------------------------------------------------------------------}
+\typeout{-------------------------------------------------------------------------------------------------}
+\typeout{}
+\typeout{                                      Report Template                                            }
+\typeout{                              Designed by Alexandre Bouenard                                     }
+\typeout{                               contact: abouenard@gmail.com                                      }
+\typeout{}
+\typeout{-------------------------------------------------------------------------------------------------}
+\typeout{-------------------------------------------------------------------------------------------------}
+\typeout{}
+
+\RequirePackage{latexsym}
+\RequirePackage{makeidx}
+\RequirePackage{calc}
+\RequirePackage{ifthen}
+\RequirePackage{float}
+\RequirePackage[english]{babel}
+\RequirePackage{eso-pic}
+\RequirePackage[absolute]{textpos}
+\RequirePackage{fancyhdr}
+\RequirePackage{multicol}
+\RequirePackage{multirow}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{tabularx}
+\RequirePackage{epsfig, amssymb, amsmath}
+\RequirePackage{graphics} 
+\RequirePackage{moreverb}
+\RequirePackage{url}
+\RequirePackage[all]{xy}
+\RequirePackage{textcomp}
+\RequirePackage[right]{eurosym}
+\RequirePackage[lined, algonl, ruled, algochapter]{algorithm2e}
+\RequirePackage{ifthen}
+\RequirePackage{subfigure}
+\RequirePackage{array}
+\RequirePackage{titlesec}
+\RequirePackage{lscape}
+\RequirePackage{fouridx}
+
+\setlength{\hoffset}{0mm}
+\setlength{\voffset}{0mm}
+\setlength{\paperheight}{11in}%{297mm}
+\setlength{\paperwidth}{8.5in}%{210mm}
+\setlength{\textwidth}{170mm}
+\setlength{\marginparwidth}{0mm}
+\setlength{\headheight}{0mm}
+\setlength{\textheight}{210mm}
+\setlength{\evensidemargin}{0mm}
+\setlength{\oddsidemargin}{0mm}
+\renewcommand{\ps@plain}{
+	\renewcommand{\@oddhead}{}
+	\renewcommand{\@evenhead}{}
+	\renewcommand{\@evenfoot}{}
+	\renewcommand{\@oddfoot}{\@evenfoot}
+}
+\renewcommand{\ps@headings}{
+	\renewcommand{\@oddhead}{}
+	\renewcommand{\@evenhead}{}
+	\renewcommand{\@evenfoot}{}
+	\renewcommand{\@oddfoot}{\@evenfoot}
+}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\chaptername}{}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\addtocounter{secnumdepth}{1}
+\AtBeginDocument{
+	\makeindex
+	\def\uppercase{}
+	\newcounter{III}
+	\newcounter{cptBiblioSection}
+	\setcounter{cptBiblioSection}{0}
+}
+\AtEndDocument{
+}
+\newcommand{\ignore}[1]{}
+\newcommand{\rmq}[1]{{\noindent\texttt{\textbf{Remarque:}#1}}}
+\newcommand{\nohyphens}{\hyphenpenalty=10000\exhyphenpenalty=10000\relax}
+\newcommand{\forloop}[5][1]{\setcounter{#2}{#3} \ifthenelse{#4} { #5 \addtocounter{#2}{#1} \forloop[#1]{#2}{\value{#2}}{#4}{#5} }  Else { } } 
+\newcommand{\concat}[2]{#1\\#2}
+\newcommand{\myfigname}{\textsc{Fig. }}
+\newcommand{\mytabname}{\textsc{Tab. }}
+\newcommand{\myequname}{\textsc{Equ. }}
+\newcommand{\myalgname}{\textsc{Alg. }}
+\newcolumntype{x}[1]{>{\centering\hspace{0pt}}p{#1}}
+\fancypagestyle{plain}{
+	\renewcommand{\headrulewidth}{0.4pt}
+	\renewcommand{\footrulewidth}{0.0pt}
+	\fancyhf[L]{}
+	\fancyhf[R]{\thepage}
+	\fancyfoot{} 
+} 
+\titleformat{\chapter}[block]
+{
+  	\vspace{-1cm}
+	\titlerule[3pt]
+	\vspace{5pt}
+	\titlerule[1pt]
+   	\vspace{0.3cm}
+   	\ifnum \thechapter > 0
+		\centering\normalfont\Huge \textbf{\thechapter}
+	\else
+		\centering\normalfont\Huge
+	\fi
+}{
+   	\vspace{0cm}
+}{
+	0cm
+}{
+   	\Huge\bfseries\vspace{2cm}
+} 
+
+\newcommand{\AUTHORForname}{Andr{\'e}}
+\newcommand{\AUTHORName}{Franquin}
+\newcommand{\Author}[2]{
+	\renewcommand{\AUTHORForname}{#1}
+	\renewcommand{\AUTHORName}{#2}
+}
+\newcommand{\INSTITUTIONName}{Dupuis}
+\newcommand{\INSTITUTIONLogo}{}
+\newcommand{\INSTITUTIONLogoSize}{}
+\newcommand{\Institution}[3]{
+	\renewcommand{\INSTITUTIONName}{#1}
+	\renewcommand{\INSTITUTIONLogo}{#2}
+	\renewcommand{\INSTITUTIONLogoSize}{#3}
+}
+\newcommand{\TITLE}{Conception et Evaluation\\ d'une Tondeuse\\ {\`a} Gazon Miniature}
+\newcommand{\Title}[1]{\renewcommand{\TITLE}{{\LARGE\textbf{#1}}}}
+\newcommand{\DATE}{10 d{\'e}cembre 2009}
+\newcommand{\Date}[1]{\renewcommand{\DATE}{#1}}
+\newcommand{\BIBLIOSECTIONnameabbrv}{A}
+\newcommand{\BIBLIOSECTIONnameabbrvi}{A}
+\newcommand{\BIBLIOSECTIONname}{A}
+\newcommand{\BIBLIOSECTIONnamei}{A}
+\newcommand{\namesectionstyle}{A}
+\newcommand{\namesection}{A}
+\newcommand{\BiblioSection}[2]{
+	\stepcounter{cptBiblioSection}
+	\newBiblioSection{\roman{cptBiblioSection}}{#1}{#2}
+}
+\newcommand{\newBiblioSection}[3]{
+	\expandafter\def\csname BIBLIOSECTIONnameabbrv#1\endcsname{#2}
+	\expandafter\def\csname BIBLIOSECTIONname#1\endcsname{#3}
+}
+\newcommand{\mybibliography}[1]{
+	\chapter{Bibliography}
+	\markboth{Bibliography}{Bibliography}
+	\label{chapter:Biblio}
+	\bibliographystyle{alpha}
+	\bibliography{#1}
+}
+\newcommand{\FRONTCOVER}{
+	\thispagestyle{empty}
+	\begin{textblock*}{0.7\paperwidth}(0mm,0.5\paperheight-6.5cm)
+		\noindent\mbox{
+			\begin{minipage}{\paperwidth}
+				\vspace{-2cm}
+				\begin{center}
+					\TITLE
+				\end{center}	
+				\vspace{4cm}
+				\centerline{\large \emph{\authorn \ \authorN}}
+				\vspace{4cm}
+				\begin{center}
+					\includegraphics[width=\INSTITUTIONLogoSize\columnwidth]{\INSTITUTIONLogo}\\
+					\vspace{0.1cm}
+					\textbf{\large \INSTITUTIONName}
+				\end{center}
+				\vspace{4cm}
+				\centerline{\DATE}
+			\end{minipage}
+		}
+	\end{textblock*}
+}
+\newcommand{\makeFrontCover}{
+	\FRONTCOVER
+}
+\newcommand{\makeFourthCover}{
+	\newpage\thispagestyle{empty}~
+	\ifodd\value{page}
+		\newpage\thispagestyle{empty}~\newpage\thispagestyle{empty}
+	\else
+		\newpage\thispagestyle{empty}
+	\fi
+}
+
+\newcommand{\leftexp}[2]{{\vphantom{#2}}^{#1}{#2}}
+\newcommand{\leftsub}[2]{{\vphantom{#2}}_{#1}{#2}}
+
+\setcounter{secnumdepth}{7}
+\setcounter{tocdepth}{7}
+\makeatletter
+	\def\subsubsubsection{\@startsection{paragraph}{2}{\z@}{10pt plus 1pt minus 1pt}{10pt plus 1pt minus 1pt}{\small\bf}}
+	\def\subsubsubsubsection{\@startsection{subparagraph}{3}{\z@}{9pt plus 1pt minus 1pt}{9pt plus 1pt minus 1pt}{\small\bf}}
+	\newcounter{subsubparagraph}[subparagraph]
+	\renewcommand\thesubsubparagraph{\thesubparagraph.\@arabic\c@subsubparagraph}
+	\newcommand\subsubparagraph{\@startsection{subsubparagraph}{6}{2\parindent}{3.25ex \@plus1ex \@minus .2ex}{-1em}{\normalfont\normalsize	\bfseries}}
+
+	\newcommand*\l@subsubparagraph{\@dottedtocline{6}{14em}{7em}}
+
+	\renewcommand{\fnum@figure}[1]{\textbf{\textsc{Fig.~\thefigure.}}}
+	\renewcommand{\fnum@table}[1]{\textbf{\textsc{Tab.~\thetable.}}}
+	\renewcommand{\algorithmcfname}{\textsc{Alg.}}
+
+	\def\thebibliography#1{
+		\markboth{\bibname}{\bibname}
+		\list{[\arabic{enumi}]}{
+			\settowidth\labelwidth{[#1]}\leftmargin\labelwidth
+			\advance\leftmargin\labelsep
+			\usecounter{enumi}
+		}
+		\def\newblock{\hskip .11em plus .33em minus .07em}
+		\sloppy\clubpenalty4000\widowpenalty4000
+		\sfcode`\.=1000\relax
+	}
+	\def\listoffigures{
+		\chapter{\listfigurename}
+		\markboth{\listfigurename}{\listfigurename}
+		\@starttoc{lof}
+	}
+	\def\listoftables{
+		\chapter{\listtablename}
+		\markboth{\listtablename}{\listtablename}
+		\@starttoc{lot}
+	}
+	\providecommand{\eqcaption}[1]{
+	    \addcontentsline{loe}
+	    {section}
+	    {\numberline {\theequation} {\ignorespaces #1}}
+	}
+	\def\listofequations{
+		\chapter{List of Equations}
+		\markboth{List of Equations}{List of Equations}
+		\@starttoc{loe}
+	}
+	\def\listofalgorithms{
+		\chapter{List of Algorithms}
+		\markboth{List of Algorithms}{List of Algorithms}
+		\@starttoc{loa}
+	}
+	
+	\def\@chapter[#1]#2{
+		\ifnum \c@secnumdepth >\m@ne
+			\refstepcounter{chapter}
+			\typeout{\@chapapp\space\thechapter.}
+			\addcontentsline{toc}{chapter}
+			{\protect\numberline{\thechapter}#2}
+		\else
+			\addcontentsline{toc}{chapter}{#2}
+		\fi
+		\chaptermark{#1}
+		\addtocontents{lof}{\protect\addvspace{10\p@}}
+		\addtocontents{lot}{\protect\addvspace{10\p@}}
+		\addtocontents{loe}{\protect\addvspace{10\p@}}
+		\if@twocolumn
+			\@topnewpage[\@makechapterhead{#2}]
+		\else
+			\@makechapterhead{#2}
+			\@afterheading
+		\fi
+	}
+\makeatother

@@ -1,0 +1,70 @@
+%%
+%%
+%%  Designed by Alexandre Bouenard 
+%%  contact: abouenard@gmail.com
+%%
+%%
+
+%%  Document class
+\documentclass[twoside, a4paper, 11pt]{book}
+
+%%  Title, author
+\def\project{Report-Template}
+\def\title{Conception et Evaluation\\ d'une Tondeuse {\`a} Gazon Miniature}
+\def\authorn{Alexandre}
+\def\authorN{Bou{\"e}nard}
+
+%%  Stuff to load at run-time
+\usepackage{report}
+\pagestyle{fancy}
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot{}
+\usepackage{subfigure}
+\usepackage[pdfauthor={\authorn \ \authorN}, pdfcreator={\authorn \ \authorN}, pdfproducer={\authorn \ \authorN}, pdfkeywords={}, pdfsubject={}, pdfstartview=XYZ, colorlinks=false, linkcolor=red, linkbordercolor={1 0 0}, citebordercolor={0 1 0}, citecolor=green, filecolor=blue, urlcolor=blue, bookmarks, bookmarksnumbered, bookmarksopen=true, pagebackref=false]{hyperref}
+%[pdftitle={\title}
+\usepackage[final]{pdfpages}
+
+%%  Misc
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+\makeindex
+\def\underscore{\char`\_}
+
+%%  Begin the document
+\begin{document}
+\thispagestyle{empty}
+
+%%  Front cover
+\Author{\authorn}{\authorN}
+\Title{\title}
+\Institution{Institution Name\\ Montreal, Canada}{./Data/Logo/Gaston.jpg}{0.3}
+\Date{October 23rd 2017}
+\makeFrontCover
+\thispagestyle{empty}
+
+%%  Second cover: a blank page
+\newpage\vfill~\newpage
+\thispagestyle{empty}
+\newpage\vfill~\newpage
+\pagenumbering{roman}
+
+%%  Table of Contents
+\addcontentsline{toc}{chapter}{Table of Content}
+\markboth{Table of Content}{Table of Content}
+\renewcommand\contentsname{Table of Content}
+\tableofcontents
+
+%%  Chapters
+\input{./Chapters/1/Chapter1}
+\input{./Chapters/2/Chapter2}
+\input{./Chapters/3/Chapter3}
+\input{./Chapters/A1/Appendix1}
+
+%%  Biblio
+\mybibliography{./Biblio/\project}
+\newpage\vfill~\newpage\newpage
+
+%%  Fourth cover: a blank page
+\makeFourthCover
+
+\end{document}
