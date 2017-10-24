@@ -273,7 +273,6 @@
 	\end{textblock*}
 
 	\begin{textblock*}{\paperwidth}(0mm, 0mm)
-%		\noindent\includegraphics[width=\paperwidth, height={#2}\paperwidth, bb= #3 #4 #5 #6]{#1}
 		\noindent\includegraphics[width=\paperwidth, height={#2}\paperwidth]{#1}
 	\end{textblock*}
 }
@@ -409,7 +408,6 @@
 	\chapter*{Acknowledgments}
 	\addcontentsline{toc}{chapter}{Acknowledgments}
 	\markboth{Acknowledgments}{Acknowledgments}
-
 	\ACKNOWLEDGMENTS
 }
 
@@ -431,21 +429,6 @@
 	}{
 		\chapter{Bibliography}
 		\markboth{Bibliography}{Bibliography}
-
-%		\bibliographystyle{alpha}
-%		\bibliography{#1}
-
-%		\setcounter{III}{1}
-%		\whiledo{\not{\value{III} > \value{cptSectionBibliographique}}}{
-%			\typeout{\csname SECTIONBIBLIOnomabbrv\roman{III}\endcsname}
-%			\renewcommand{\nomsection}{\csname SECTIONBIBLIOnomabbrv\roman{III}\endcsname}
-%			\typeout{\nomsection}
-%			\typeout{\bibliographystyle\nomsection}
-%			\typeout{\bibliography\nomsection}
-%			\bibliographystyle\nomsection{alpha}
-%			\thebibliography\nomsection{#1}
-%			\stepcounter{III}
-%		}
 
 		\fancyhead[RO]{\slshape Computer Animation} 
 		\fancyhead[LE]{\slshape Bibliography}
@@ -538,10 +521,8 @@
 	}
 \makeatother
 
-\newcommand{\numOrder}[1]{
-        \renewcommand{\NUMORDER}{#1}
-}
-\newcommand{\makeFourthCover}{
+\newcommand{\makeFourthCover}[2]{
+	\renewcommand{\NUMORDER}{#1}
 	\newpage\thispagestyle{empty}~
 	\ifodd\value{page}
 		\newpage\thispagestyle{empty}
@@ -590,8 +571,7 @@
 	\begin{textblock*}{\paperwidth-2cm}(1.5cm, 26cm)
         	\noindent\mbox{
 			\begin{minipage}{\paperwidth-2cm}
-%				\noindent\includegraphics[width=3.5cm, height=1.89cm, bb= 0 0 172 92]{./Logos/Pdf/logo-UBS-2.pdf}
-				\noindent\includegraphics[width=3.5cm, height=1.89cm]{./Logos/Pdf/logo-UBS-2.pdf}
+				\noindent\includegraphics[width=3.5cm, height=1.89cm]{#2}
 	        	\end{minipage}
                 }
 	\end{textblock*}
