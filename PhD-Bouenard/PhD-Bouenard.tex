@@ -1,0 +1,243 @@
+%%
+%%
+%%  Designed by Alexandre Bouenard 
+%%  contact: abouenard@gmail.com
+%%
+%%
+
+%%  Document class
+\documentclass[twoside, a4paper, 12pt]{book}
+
+
+%%  Title, author
+\def\project{PhD-Bouenard}
+\def\title{Synthesis of Music Performances: Virtual Character Animation as a Controller of Sound Synthesis}
+\def\authorn{Alexandre}
+\def\authorN{Bou{\"e}nard}
+
+
+%%  Stuff to load at run-time
+\usepackage{../PhD/phd-ueb}
+\lang{english}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot[CE,CO]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\usepackage[resetlabels]{multibib}
+\usepackage[pdftex, pdftitle={\title}, pdfauthor={\authorn \ \authorN}, pdfcreator={\authorn \ \authorN}, pdfproducer={\authorn \ \authorN}, pdfkeywords={Physics-based Computer Animation, Physics-based Sound Synthesis, Gesture-Sound Interaction, Gestural Control of Sound Synthesis}, pdfsubject={\title}, pdfstartview=XYZ, colorlinks=false, linkcolor=red, linkbordercolor={1 0 0}, citebordercolor={0 1 0}, citecolor=green, filecolor=blue, urlcolor=blue, bookmarks, bookmarksnumbered, bookmarksopen=true]{hyperref}
+\usepackage[all]{hypcap}
+\newcites{CGA}{Computer Animation}
+\newcites{CM}{Computer Music}
+\newcites{IPA}{Instrumental Performance Analysis}
+
+%%  Misc
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\makeindex
+\def\underscore{\char`\_}
+
+%%  Begin the document
+\begin{document}
+
+%%  Front cover
+\Title{Synthesis of Music\\\vspace{1mm} Performances: Virtual\\\vspace{1mm} Character Animation\\\vspace{1mm} as a Controller of\\\vspace{-0.7mm} Sound Synthesis}
+\PresentationDate{December 10th, 2009}
+\Author{\authorn}{\authorN}
+\Institution{Universit{\'e} de Bretagne Sud}{Centre d'Enseignement et de Recherche Y. Coppens - rue Yves Mainguy - 56000 VANNES \\ T{\'e}l : + 33(0)2 97 01 70 70 Fax : + 33(0)2 97 01 70 70}{UFR Sciences et Sciences de l'Ing{\'e}nieur}{Laboratoire de Recherche Informatique\\ et ses Applications de Vannes et Lorient}
+\President{M}{Ren{\'e}}{Causs{\'e}}{Senior Researcher, Institut de Recherche et Coordination\\ Acoustique/Musique, France}{President}
+\Reviewer{M}{Christian}{Jacquemin}{Professor, Universit{\'e} Paris XI, France}{Reviewer}
+\Reviewer{M}{Ronan}{Boulic}{Senior Researcher, Ecole Polytechnique F{\'e}d{\'e}rale de Lausanne,\\ Switzerland}{Reviewer}
+\Examiner{Me}{Sofia}{Dahl}{Assistant Professor, Aalborg University, Denmark}{Examiner}
+\Advisor{Me}{Sylvie}{Gibet}{Professor, Universit{\'e} de Bretagne Sud, France}{Advisor}
+\Advisor{M}{Marcelo M.}{Wanderley}{Associate Professor, McGill University, Canada}{Advisor}
+\BiblioSection{CGA}{Computer Graphics and Animation}
+\BiblioSection{CM}{Computer Music}
+\BiblioSection{IPA}{Instrumental Performance Analysis}
+\makeFrontCover{../PhD/Logos/Pdf/FrontCover_UEB.pdf}{1.0}{0}{0}{1984}{1937}
+\pagenumbering{roman}
+
+%%  Second cover: a blank page
+\newpage\vfill~\newpage
+\newpage\vfill~\newpage
+
+%%  citation
+\Citation{
+	\emph{For seeing life is but a motion of limbs, the beginning whereof is in some principal part within, why may we not say that all automata (engines that move themselves by springs and wheels as doth a watch) have an artificial life? For what is the heart, but a spring; and the nerves, but so many strings; and the joints, but so many wheels, giving motion to the whole body? (...)} Art \emph{goes yet further, imitating that rational and most excellent work of nature,} man.
+}{
+	\emph{T. Hobbes. LEVIATHAN or the Matter, Form and Power of a Commonwealth Ecclesiatical and Civil. London, 1651.}
+}
+\makeCitation
+\newpage\vfill~\newpage
+
+%%  Abstracts
+\Abstracts{Synthesis of Music Performances: Virtual Character Animation as a Controller of Sound Synthesis}{
+	Ces derni{\`e}res ann{\'e}es ont vu l'{\'e}mergence de nombreuses interfaces musicales ayant pour objectif principal d'offrir de nouvelles exp{\'e}riences instrumentales. La sp{\'e}cification de telles interfaces met g{\'e}n{\'e}ralement en avant l'expertise des musiciens {\`a} appr{\'e}hender des donn{\'e}es sensorielles multiples et h{\'e}t{\'e}rog{\`e}nes  (visuelles, sonores et tactiles). Ces interfaces mettent ainsi en jeu le traitement de ces diff{\'e}rentes donn{\'e}es pour la conception de nouveaux modes d'interaction.\\
+
+Cette th{\`e}se s'int{\'e}resse plus sp{\'e}cifiquement {\`a} l'\emph{analyse}, la \emph{mod{\'e}lisation} ainsi que la \emph{synth{\`e}se} de situations instrumentales de percussion. Nous proposons ainsi un syst{\`e}me permettant de synth{\'e}tiser les retours visuel et sonore de performances de percussion, dans lesquelles un percussionniste virtuel contr{\^o}le des processus de synth{\`e}se sonore.
+
+L'{\'e}tape d'analyse montre l'importance du contr{\^o}le de l'extr{\'e}mit{\'e} de la mailloche par des percussionnistes experts jouant de la timbale. Cette analyse n{\'e}cessite la capture pr{\'e}alable des gestes instrumentaux de diff{\'e}rents percussionnistes. Elle conduit {\`a} l'extraction de param{\`e}tres {\`a} partir des trajectoires extremit{\'e} captur{\'e}es pour diverses variations de jeu. Ces param{\`e}tres sont quantitativement {\'e}valu{\'e}s par leur capacit{\'e} {\`a} repr{\'e}senter ces variations.
+
+Le syst{\`e}me de synth{\`e}se propos{\'e} dans ce travail met en oeuvre l'animation physique d'un percussionniste virtuel capable de contr{\^o}ler des processus de synth{\`e}se sonore. L'animation physique met en jeu un nouveau mode de contr{\^o}le du mod{\`e}le physique par la seule sp{\'e}cification de la trajectoire extr{\'e}mit{\'e} de la mailloche. Ce mode de contr{\^o}le est particuli{\`e}rement pertinent au regard de l'importance du contr{\^o}le de la mailloche mis en {\'e}vidence dans l'analyse pr{\'e}c{\'e}dente. L'approche physique adopt{\'e}e est de plus utilis{\'e}e pour permettre l'interaction du percussionniste virtuel avec un mod{\`e}le physique de timbale.
+
+En dernier lieu, le syst{\`e}me propos{\'e} est utilis{\'e} dans une perspective de composition musicale. La construction de nouvelles situations instrumentales de percussion est r{\'e}alis{\'e}e gr{\^a}ce {\`a} la mise en oeuvre de partitions gestuelles. Celles-ci sont obtenues par l'assemblage et l'articulation d'unit{\'e}s gestuelles canoniques disponibles dans les donn{\'e}es captur{\'e}es. Cette approche est appliqu{\'e}e {\`a} la composition et la synth{\`e}se d'exercices de percussion, et evalu{\'e}e qualitativement par un professeur de percussion.\\
+}{
+	The last few decades have witnessed the emergence of a plethora of musical interfaces aiming at expanding musical performance experiences. The design of these interfaces generally emphasizes the expertise of musicians in managing heterogenous sensory informations (visual, sound and tactile). Such musical interfaces involve therefore the processing of these various sensory data for designing novel interaction modes.\\
+
+This thesis addresses more specifically the \emph{analysis}, \emph{modeling} and \emph{synthesis} of percussion performances. We propose a system that realizes the synthesis of the visual and sound feedback of percussion performances in which a virtual percussionist controls sound synthesis processes.
+
+The analysis step of our work shows the importance of the fine control of mallet extremity trajectories by expert percussion performers playing timpani. It includes the collection of instrumental gesture data from several percussionists. We extract movement parameters from the recorded mallet extremity trajectories for different percussion playing variations. Such parameters are quantitatively evaluated with respect to their ability to represent the various playing variations under study.
+
+We then propose a system for synthesizing timpani performances involving the physical modeling of a virtual percussionist that interacts with sound synthesis processes. The physical framework includes a novel scheme for controlling the motion of the virtual percussionist solely by the specification of trajectories of mallet tips. This control mode is shown to be consistent with the predominant control of mallet extremity presented in the previous analysis step. The physical approach is also used for allowing the virtual percussionist to interact with a physical model of a timpani.
+
+Finally, the proposed system is used in a musical performance perspective. A composition process based on gesture scores is proposed to achieve the synthesis of novel percussion performances. Such gesture scores are obtained by the assembly and articulation of gesture units available in the recorded data. This compositional approach is applied to the synthesis of several percussion exercises, and is informally evaluated by a percussion professor.\\
+}
+\KeyWords{
+	Animation par Ordinateur, Informatique Musicale, Interaction Geste Instrumental-Son.
+}{
+	Computer Animation, Computer Music, Instrumental Gesture-Sound Interaction.
+}
+\makeAbstracts
+\newpage\vfill~\newpage
+
+%%  Acknowledgemnts
+\Acknowledgments{
+I would like to thank first Sylvie Gibet (Universit{\'e} de Bretagne Sud, VALORIA lab.) and Marcelo M. Wanderley (McGill University, IDMIL lab.) for giving me the opportunity to work in their respective research groups, as well as for all of their support and enthusiasm over these years. Let me highlight their courage, tenacity and constant rightness while accompanying me in this Ph.D. project.
+	
+I would like also to thank them for making this "backpack Ph.D." possible. I consider their trust as a priviledge, letting me cross several times the Atlantic ocean between Vannes and Montreal for accomplishing this work. It has for sure changed both my professional and personal lives forever.\\
+
+\noindent{------}
+\vspace{0.5cm}
+
+I am grateful to Christian Jacquemin (Universit{\'e} Paris XI) and Ronan Boulic (EPFL), for all of their time and guidance throughout the Ph.D. review process. I would like also to thank Ren{\'e} Causs{\'e} (IRCAM) and Sofia Dahl (Aalborg University) who have accepted the task of examining this dissertation.\\
+
+%\noindent{------}
+\vspace{0.25cm}
+
+Many thanks also to all the members of the VALORIA lab. for making my several venues in Vannes really encouraging and interesting periods. Especially, I would like to thank Fr{\'e}d{\'e}ric, Gersan, Gildas, Jean-Fran\c{c}ois, Nicolas (VALORIA-mafia style rocks on!), Pierre-Fran\c{c}ois and Salah for the daily discussions. 
+
+Thanks as well to Alban, C{\'e}line, Charly, Julien (for discussions, support and the camera shooting), Kahina (for sharing good moments in the office, for the Ph.D. party organization, and for the "table" keyword ;-$\diamondsuit$), Kyle, Nicolas, Pierre, Rom{\'e}o, Salma (for the Ph.D. party organization), S{\'e}bastien, Thibault, Vincent and Youen, for their general support when writing this Ph.D. dissertation.
+
+Many thanks also to Sylviane, whose administrative efficiency has been more than helpful over these years, especially when I was abroad.\\
+
+\vspace{0.25cm}
+
+Special thanks to all Music Tech-ies for contributing to make each of my stay at the IDMIL lab. a stimulating environment for conducting my research. Among them, thanks to Avrum, Erika, Joe M., Joe T., Mark, Marlon, Michael, Rodolphe, Steve (especially for the daily discussions and his OSC-linux mastering knowledge), Vanessa and Vijay for expanding my horizon in music tech research through their studies. Thanks to Bertrand, Vincent F. and Vincent V. for the "French connection" ;-$\diamondsuit$, many thanks to Erwin for helping me during the time-consuming task of gathering motion capture data.
+
+Thanks also to Darryl for easying many technical tasks at the IDMIL.\\
+
+\vspace{0.25cm}
+
+I am also grateful to Fabrice Marandola (Schulich School of Music, McGill University) and Sofia Dahl (Aalborg University) for their expert insights about percussion performances. Thanks as well to all percussionists who have made possible such a study about propably one their most personal musical material, their instrumental gestures.\\
+
+%\noindent{------}
+\vspace{0.25cm}
+
+In a more general perspective, I would like to wish all the best for the next future to all the previously cited people and those I have unfortunately forgotten. We will for sure meet each other again even if we do not know where and when, but do we really need a determined timing and appointment?\\
+
+%\vspace{1cm}
+\noindent{------}
+\vspace{0.5cm}
+
+Eventually, here come some more personal acknowledgments.\\
+\vspace{0.25cm}
+
+My unmeasured recognition goes to my dear family (Alain, Anne-Soizic, Jo{\"e}lle, Julie and Pierre) for their every-day understanding and for coping with physical separation. I know these past few years have not been easy for you. Thanks for being part of my life, for welcoming me again and again, as truly as it was the first time!\\
+
+\vspace{0.25cm}
+
+I am also thankful to my family-in-law (Caro, J-Lo, Lise and Walid) for making each of my stay in Quebec a wonderful discovery, particularly in St-Narcisse. Each time I spent here with all of you was really a breath of fresh air, it has for sure contributed to the achievement of this work. Private joke for J-Lo: the "pousseux d'crayon" has finally graduated ;-$\diamondsuit$.\\
+
+\vspace{0.25cm}
+
+I would like also to thank my dear friends: Alex, Anne, Boris, Flavie, Flo B., Flo, Jean-Louis, Nico, Marion, Maud, Pedro and Romain for their every-day understanding. Thanks as well to Audi, Brioche, Caro, Laureen and N{\'e}l{\`e}ne, who came to Montreal only for seeing my eyes, and also for the Quebec I am not fooled ;-$\diamondsuit$. I am also grateful to Vincent and Julie who introduced me to Montreal's life.\\
+
+\vspace{0.25cm}
+
+To all of you, time and distance can be ennemies as you may know, could we just take it as an allied and simply keep on making fun of it?!\\
+
+\vspace{0.25cm}
+
+Last but not least, my warmest and unlimited thanks go to Annie, whose love, patience and encouragement have made all the difference.
+
+\vspace{0.5cm}
+\noindent{------}
+\vspace{0.5cm}
+
+A new life starts from these lines, thanks to Music for guiding it. I now hope I will be given the chance to write down many others.
+}
+\makeAcknowledgments
+\newpage\vfill~\newpage
+\cleardoublepage
+
+%%  Table of Contents
+\fancyhead[RO, LE]{\slshape Table of Contents}
+\fancyhead[RE, LO]{} 
+\renewcommand{\headrulewidth}{0.4pt}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\phantomsection
+\addcontentsline{toc}{chapter}{Table of Contents}
+\markboth{Table of Contents}{Table of Contents}
+\renewcommand\contentsname{Table of Contents}
+\tableofcontents
+
+%%  Chapters
+\fancyhead[RO]{\slshape \rightmark} 
+\fancyhead[LE]{\slshape \leftmark}
+\fancyhead[LO, RE]{} 
+\input{./Chapters/1/Chapter1.tex}
+\input{./Chapters/2/Chapter2.tex}
+\input{./Chapters/3/Chapter3.tex}
+\input{./Chapters/4/Chapter4.tex}
+\input{./Chapters/5/Chapter5.tex}
+\input{./Chapters/6/Chapter6.tex}
+\input{./Chapters/7/Chapter7.tex}
+
+%%  Appendices
+\appendix
+\input{./Appendices/A/AppendiceA.tex}
+\input{./Appendices/B/AppendiceB.tex}
+
+%%  Biblio
+\mybibliography{./Biblio/\project}
+
+%%  Figs list
+\newpage
+\cleardoublepage
+\fancyhead[RO]{\slshape List of Figures} 
+\fancyhead[LE]{\slshape List of Figures}
+\fancyhead[LO, RE]{} 
+\renewcommand\listfigurename{List of Figures}
+\listoffigures
+
+%%  Tables list
+\newpage
+\cleardoublepage
+\fancyhead[RO]{\slshape List of Tables} 
+\fancyhead[LE]{\slshape List of Tables}
+\fancyhead[LO, RE]{} 
+\renewcommand\listtablename{List of Tables}
+\listoftables
+
+%%  Equations list
+\newpage
+\cleardoublepage
+\fancyhead[RO]{\slshape List of Equations} 
+\fancyhead[LE]{\slshape List of Equations}
+\fancyhead[LO, RE]{} 
+\listofequations
+
+%%  Algs list
+\newpage
+\cleardoublepage
+\fancyhead[RO]{\slshape List of Algorithms} 
+\fancyhead[LE]{\slshape List of Algorithms}
+\fancyhead[LO, RE]{} 
+\listofalgorithms
+\newpage\vfill~\newpage
+
+%%  Fourth cover: a blank page
+\makeFourthCover{161}{../PhD/Logos/Pdf/logo-UBS.pdf}
+
+\end{document}

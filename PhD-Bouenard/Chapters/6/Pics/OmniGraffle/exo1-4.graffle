@@ -1,0 +1,2864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ActiveLayerIndex</key>
+	<integer>0</integer>
+	<key>ApplicationVersion</key>
+	<array>
+		<string>com.omnigroup.OmniGraffle</string>
+		<string>138.9.0.117994</string>
+	</array>
+	<key>AutoAdjust</key>
+	<true/>
+	<key>BackgroundGraphic</key>
+	<dict>
+		<key>Bounds</key>
+		<string>{{0, 0}, {576, 733}}</string>
+		<key>Class</key>
+		<string>SolidGraphic</string>
+		<key>ID</key>
+		<integer>2</integer>
+		<key>Style</key>
+		<dict>
+			<key>shadow</key>
+			<dict>
+				<key>Draws</key>
+				<string>NO</string>
+			</dict>
+			<key>stroke</key>
+			<dict>
+				<key>Draws</key>
+				<string>NO</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>CanvasOrigin</key>
+	<string>{0, 0}</string>
+	<key>ColumnAlign</key>
+	<integer>1</integer>
+	<key>ColumnSpacing</key>
+	<real>36</real>
+	<key>CreationDate</key>
+	<string>2009-05-31 18:17:33 +0200</string>
+	<key>Creator</key>
+	<string>Alexandre Bouënard</string>
+	<key>DisplayScale</key>
+	<string>1 0/72 in = 1.0000 in</string>
+	<key>ExportShapes</key>
+	<array>
+		<dict>
+			<key>InspectorGroup</key>
+			<real>-1</real>
+			<key>ShapeImageRect</key>
+			<string>{{2, 2}, {22, 22}}</string>
+			<key>ShapeName</key>
+			<string>pdfImport-402</string>
+			<key>ShouldExport</key>
+			<string>YES</string>
+			<key>StrokePath</key>
+			<dict>
+				<key>elements</key>
+				<array>
+					<dict>
+						<key>element</key>
+						<string>MOVETO</string>
+						<key>point</key>
+						<string>{0.280191, 0.451027}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{0.155214, 0.481951}</string>
+						<key>control2</key>
+						<string>{-0.0129185, 0.5}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{-0.159426, 0.5}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{-0.254354, 0.5}</string>
+						<key>control2</key>
+						<string>{-0.340479, 0.489674}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{-0.400957, 0.475513}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{-0.465551, 0.460037}</string>
+						<key>control2</key>
+						<string>{-0.5, 0.438154}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{-0.5, 0.41235}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{-0.5, 0.371128}</string>
+						<key>control2</key>
+						<string>{-0.405169, 0.331165}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{-0.280191, 0.300241}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{-0.150814, 0.269318}</string>
+						<key>control2</key>
+						<string>{0.00861168, 0.249979}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{0.142296, 0.249979}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{0.258659, 0.249979}</string>
+						<key>control2</key>
+						<string>{0.357798, 0.255129}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{0.41818, 0.271921}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.41818, -0.5}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.5, -0.5}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{0.5, 0.335026}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{0.5, 0.380138}</string>
+						<key>control2</key>
+						<string>{0.409569, 0.421391}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{0.280191, 0.451027}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>CLOSE</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>MOVETO</string>
+						<key>point</key>
+						<string>{0.280191, 0.451027}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>TextBounds</key>
+			<string>{{0, 0}, {1, 1}}</string>
+		</dict>
+		<dict>
+			<key>InspectorGroup</key>
+			<real>-1</real>
+			<key>ShapeImageRect</key>
+			<string>{{2, 2}, {22, 22}}</string>
+			<key>ShapeName</key>
+			<string>pdfImport-404</string>
+			<key>ShouldExport</key>
+			<string>YES</string>
+			<key>StrokePath</key>
+			<dict>
+				<key>elements</key>
+				<array>
+					<dict>
+						<key>element</key>
+						<string>MOVETO</string>
+						<key>point</key>
+						<string>{0.280212, -0.300268}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{0.155151, -0.270603}</string>
+						<key>control2</key>
+						<string>{-0.00435257, -0.249977}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{-0.142235, -0.249977}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{-0.258587, -0.249977}</string>
+						<key>control2</key>
+						<string>{-0.357716, -0.253868}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{-0.418095, -0.271919}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.418095, 0.5}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.5, 0.5}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.5, -0.335054}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{-0.5, -0.381426}</string>
+						<key>control2</key>
+						<string>{-0.409481, -0.422676}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{-0.280212, -0.451025}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{-0.150845, -0.481949}</string>
+						<key>control2</key>
+						<string>{0.0129662, -0.5}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{0.159554, -0.5}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{0.258682, -0.5}</string>
+						<key>control2</key>
+						<string>{0.340496, -0.4897}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{0.400871, -0.475512}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{0.465553, -0.460035}</string>
+						<key>control2</key>
+						<string>{0.5, -0.438124}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{0.5, -0.412376}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{0.5, -0.371126}</string>
+						<key>control2</key>
+						<string>{0.405178, -0.331163}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{0.280212, -0.300268}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>CLOSE</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>MOVETO</string>
+						<key>point</key>
+						<string>{0.280212, -0.300268}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>TextBounds</key>
+			<string>{{0, 0}, {1, 1}}</string>
+		</dict>
+		<dict>
+			<key>InspectorGroup</key>
+			<real>-1</real>
+			<key>ShapeImageRect</key>
+			<string>{{2, 2}, {22, 22}}</string>
+			<key>ShapeName</key>
+			<string>pdfImport-405</string>
+			<key>ShouldExport</key>
+			<string>YES</string>
+			<key>StrokePath</key>
+			<dict>
+				<key>elements</key>
+				<array>
+					<dict>
+						<key>element</key>
+						<string>MOVETO</string>
+						<key>point</key>
+						<string>{-0.146572, -0.234011}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{-0.22847, -0.232733}</string>
+						<key>control2</key>
+						<string>{-0.314579, -0.235287}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{-0.418098, -0.254477}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.418098, 0.5}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.5, 0.5}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>LINETO</string>
+						<key>point</key>
+						<string>{-0.5, -0.340151}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{-0.5, -0.427101}</string>
+						<key>control2</key>
+						<string>{-0.129353, -0.5}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{0.146481, -0.5}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{0.232685, -0.5}</string>
+						<key>control2</key>
+						<string>{0.314678, -0.5}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{0.383564, -0.485947}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{0.486992, -0.465481}</string>
+						<key>control2</key>
+						<string>{0.504211, -0.430962}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{0.5, -0.39386}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{0.49139, -0.305632}</string>
+						<key>control2</key>
+						<string>{0.142174, -0.236565}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{-0.146572, -0.234011}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>MOVETO</string>
+						<key>point</key>
+						<string>{0.327595, -0.460371}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{0.185326, -0.468006}</string>
+						<key>control2</key>
+						<string>{-0.0775909, -0.415604}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{-0.181015, -0.390026}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{-0.310272, -0.359312}</string>
+						<key>control2</key>
+						<string>{-0.405087, -0.324793}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{-0.400879, -0.295412}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{-0.396477, -0.281332}</string>
+						<key>control2</key>
+						<string>{-0.37495, -0.276194}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{-0.318886, -0.27364}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{-0.219765, -0.271084}</string>
+						<key>control2</key>
+						<string>{-0.0430527, -0.295412}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{0.112038, -0.329931}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{0.262917, -0.363173}</string>
+						<key>control2</key>
+						<string>{0.409397, -0.410494}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{0.400787, -0.442459}</string>
+					</dict>
+					<dict>
+						<key>control1</key>
+						<string>{0.396481, -0.452677}</string>
+						<key>control2</key>
+						<string>{0.362038, -0.459064}</string>
+						<key>element</key>
+						<string>CURVETO</string>
+						<key>point</key>
+						<string>{0.327595, -0.460371}</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>CLOSE</string>
+					</dict>
+					<dict>
+						<key>element</key>
+						<string>MOVETO</string>
+						<key>point</key>
+						<string>{0.327595, -0.460371}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>TextBounds</key>
+			<string>{{0, 0}, {1, 1}}</string>
+		</dict>
+	</array>
+	<key>GraphDocumentVersion</key>
+	<integer>6</integer>
+	<key>GraphicsList</key>
+	<array>
+		<dict>
+			<key>Bounds</key>
+			<string>{{387.22, 149.093}, {8, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1365</integer>
+			<key>Rotation</key>
+			<real>90</real>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 &gt;}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{361.11, 149.093}, {8, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1364</integer>
+			<key>Rotation</key>
+			<real>90</real>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 &gt;}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{338.24, 149.093}, {8, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1363</integer>
+			<key>Rotation</key>
+			<real>90</real>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 &gt;}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{315.37, 149.093}, {8, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1362</integer>
+			<key>Rotation</key>
+			<real>90</real>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 &gt;}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{292.63, 149.093}, {8, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1361</integer>
+			<key>Rotation</key>
+			<real>90</real>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 &gt;}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{265.87, 149.093}, {8, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1360</integer>
+			<key>Rotation</key>
+			<real>90</real>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 &gt;}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{243, 149.093}, {8, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1359</integer>
+			<key>Rotation</key>
+			<real>90</real>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 &gt;}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{220.13, 149.093}, {8, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1358</integer>
+			<key>Rotation</key>
+			<real>90</real>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 &gt;}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{197.39, 149.093}, {8, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1357</integer>
+			<key>Rotation</key>
+			<real>90</real>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 &gt;}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{169.48, 149.093}, {8, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1311</integer>
+			<key>Rotation</key>
+			<real>90</real>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 &gt;}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{146.61, 149.093}, {8, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1310</integer>
+			<key>Rotation</key>
+			<real>90</real>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 &gt;}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{123.74, 149.093}, {8, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1309</integer>
+			<key>Rotation</key>
+			<real>90</real>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 &gt;}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{101, 149.093}, {8, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1299</integer>
+			<key>Rotation</key>
+			<real>90</real>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 &gt;}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{355.61, 206.045}, {7, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1335</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 L}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{331.61, 206.045}, {9, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1334</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 R}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{309.61, 206.045}, {7, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1333</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 L}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{285.61, 206.045}, {9, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1332</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 R}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{289.63, 199.92}, {69.23, 0.217361}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>1331</integer>
+			<key>Shape</key>
+			<string>Bezier</string>
+			<key>ShapeData</key>
+			<dict>
+				<key>UnitPoints</key>
+				<array>
+					<string>{-0.5, 0}</string>
+					<string>{-0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{-0.5, 0}</string>
+				</array>
+			</dict>
+			<key>Style</key>
+			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{358.11, 166}, {10.2061, 34.1377}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>1330</integer>
+			<key>Shape</key>
+			<string>pdfImport-404</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0</string>
+						<key>g</key>
+						<string>0</string>
+						<key>r</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{335.24, 166}, {10.2061, 34.1377}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>1329</integer>
+			<key>Shape</key>
+			<string>pdfImport-404</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0</string>
+						<key>g</key>
+						<string>0</string>
+						<key>r</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{312.37, 166}, {10.2061, 34.1377}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>1328</integer>
+			<key>Shape</key>
+			<string>pdfImport-404</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0</string>
+						<key>g</key>
+						<string>0</string>
+						<key>r</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{289.63, 166}, {10.2061, 34.1377}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>1327</integer>
+			<key>Shape</key>
+			<string>pdfImport-404</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0</string>
+						<key>g</key>
+						<string>0</string>
+						<key>r</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{260.37, 206.045}, {7, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1326</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 L}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{236.37, 206.045}, {9, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1325</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 R}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{214.37, 206.045}, {7, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1324</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 L}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{190.37, 206.045}, {9, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1323</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 R}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{194.39, 199.92}, {69.23, 0.217361}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>1322</integer>
+			<key>Shape</key>
+			<string>Bezier</string>
+			<key>ShapeData</key>
+			<dict>
+				<key>UnitPoints</key>
+				<array>
+					<string>{-0.5, 0}</string>
+					<string>{-0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{-0.5, 0}</string>
+				</array>
+			</dict>
+			<key>Style</key>
+			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{262.87, 166}, {10.2061, 34.1377}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>1321</integer>
+			<key>Shape</key>
+			<string>pdfImport-404</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0</string>
+						<key>g</key>
+						<string>0</string>
+						<key>r</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{240, 166}, {10.2061, 34.1377}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>1320</integer>
+			<key>Shape</key>
+			<string>pdfImport-404</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0</string>
+						<key>g</key>
+						<string>0</string>
+						<key>r</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{217.13, 166}, {10.2061, 34.1377}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>1319</integer>
+			<key>Shape</key>
+			<string>pdfImport-404</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0</string>
+						<key>g</key>
+						<string>0</string>
+						<key>r</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{194.39, 166}, {10.2061, 34.1377}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>1318</integer>
+			<key>Shape</key>
+			<string>pdfImport-404</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0</string>
+						<key>g</key>
+						<string>0</string>
+						<key>r</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{380.85, 206.045}, {9, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1252</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 R}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{165, 206.045}, {7, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1251</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 L}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{141, 206.045}, {9, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1250</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 R}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{119, 206.045}, {7, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1249</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 L}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{95, 206.045}, {9, 14}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1248</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 R}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{384.22, 166}, {10.207, 34.4014}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>21</integer>
+			<key>Shape</key>
+			<string>pdfImport-405</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0</string>
+						<key>g</key>
+						<string>0</string>
+						<key>r</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{99.02, 199.92}, {69.23, 0.217361}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>1247</integer>
+			<key>Shape</key>
+			<string>Bezier</string>
+			<key>ShapeData</key>
+			<dict>
+				<key>UnitPoints</key>
+				<array>
+					<string>{-0.5, 0}</string>
+					<string>{-0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{0.5, 0}</string>
+					<string>{-0.5, 0}</string>
+				</array>
+			</dict>
+			<key>Style</key>
+			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{167.5, 166}, {10.2061, 34.1377}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>1245</integer>
+			<key>Shape</key>
+			<string>pdfImport-404</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0</string>
+						<key>g</key>
+						<string>0</string>
+						<key>r</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{144.63, 166}, {10.2061, 34.1377}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>1244</integer>
+			<key>Shape</key>
+			<string>pdfImport-404</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0</string>
+						<key>g</key>
+						<string>0</string>
+						<key>r</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{121.76, 166}, {10.2061, 34.1377}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>1243</integer>
+			<key>Shape</key>
+			<string>pdfImport-404</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0</string>
+						<key>g</key>
+						<string>0</string>
+						<key>r</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{99.02, 166}, {10.2061, 34.1377}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>20</integer>
+			<key>Shape</key>
+			<string>pdfImport-404</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0</string>
+						<key>g</key>
+						<string>0</string>
+						<key>r</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{234.777, 110.712}, {32, 17}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FitText</key>
+			<string>YES</string>
+			<key>Flow</key>
+			<string>Resize</string>
+			<key>ID</key>
+			<integer>1317</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs28 \cf0 =  63}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+			<key>Wrap</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{212.962, 91}, {10.2051, 34.1377}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>18</integer>
+			<key>Shape</key>
+			<string>pdfImport-402</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0</string>
+						<key>g</key>
+						<string>0</string>
+						<key>r</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>GridInfo</key>
+	<dict/>
+	<key>GuidesLocked</key>
+	<string>NO</string>
+	<key>GuidesVisible</key>
+	<string>YES</string>
+	<key>HPages</key>
+	<integer>1</integer>
+	<key>ImageCounter</key>
+	<integer>1</integer>
+	<key>KeepToScale</key>
+	<false/>
+	<key>Layers</key>
+	<array>
+		<dict>
+			<key>Lock</key>
+			<string>NO</string>
+			<key>Name</key>
+			<string>Calque 1</string>
+			<key>Print</key>
+			<string>YES</string>
+			<key>View</key>
+			<string>YES</string>
+		</dict>
+	</array>
+	<key>LayoutInfo</key>
+	<dict>
+		<key>Animate</key>
+		<string>NO</string>
+		<key>circoMinDist</key>
+		<real>18</real>
+		<key>circoSeparation</key>
+		<real>0.0</real>
+		<key>layoutEngine</key>
+		<string>dot</string>
+		<key>neatoSeparation</key>
+		<real>0.0</real>
+		<key>twopiSeparation</key>
+		<real>0.0</real>
+	</dict>
+	<key>LinksVisible</key>
+	<string>NO</string>
+	<key>MagnetsVisible</key>
+	<string>NO</string>
+	<key>MasterSheets</key>
+	<array/>
+	<key>ModificationDate</key>
+	<string>2009-09-15 14:00:59 +0200</string>
+	<key>Modifier</key>
+	<string>Alexandre Bouënard</string>
+	<key>NotesVisible</key>
+	<string>NO</string>
+	<key>Orientation</key>
+	<integer>2</integer>
+	<key>OriginVisible</key>
+	<string>NO</string>
+	<key>PageBreaks</key>
+	<string>YES</string>
+	<key>PrintInfo</key>
+	<dict>
+		<key>NSBottomMargin</key>
+		<array>
+			<string>float</string>
+			<string>41</string>
+		</array>
+		<key>NSLeftMargin</key>
+		<array>
+			<string>float</string>
+			<string>18</string>
+		</array>
+		<key>NSPaperSize</key>
+		<array>
+			<string>size</string>
+			<string>{612, 792}</string>
+		</array>
+		<key>NSRightMargin</key>
+		<array>
+			<string>float</string>
+			<string>18</string>
+		</array>
+		<key>NSTopMargin</key>
+		<array>
+			<string>float</string>
+			<string>18</string>
+		</array>
+	</dict>
+	<key>PrintOnePage</key>
+	<false/>
+	<key>QuickLookPreview</key>
+	<data>
+	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
+	tL0MyEXwgDWCZYnbgp62H0mrdfklKiGYO6xsbgQjV4KbCEbhZM1fTuoW7zW1meuy95qM
+	TQR7zdjGuoxnKU4DweytYz2Cvdf4bqzLJzIQ3NacdVl2Uhr7JgJGd05TXa47Z75TQ6sK
+	L86kJiVn38QdKpOQoS7LR+GwIsY9yo1DMNRlIcXfCJZQLWNdZoGuVoa6PCCd4L7qJFjW
+	80Dw8khaHWO8QCUEa0CSbwSTMByD+hplStELF8C6y+sE85wuYW4EkzBMnggmTE0aCF48
+	wU27OEfwhQ0ER8QQvnhEGsEMG7kaq2sawfwm88Af1FHBdYuHfqeDvBGMAYuQvgiuX0eH
+	cxHM05A8RDA+ouE/GIVg5dx9IhiEMdZ0B8CVKv3KQDDPIQPsRHBHOsENI12cBMs6B4wN
+	t1u8R9IqwS9QyS3eahkI6f8EoKBxA3jJLMaE+EucjsLrcdWj8JIkausGSdWsXYiE1+Mq
+	jYJH4bUMsy5HibVw/gOzn7tOqrOfpd5SDwZVQN40+JqsWV6ZnilhvGnwBeHVxnHDdGrc
+	IQf0TYPTDqd53DQ/q5f93Pdzc8+wE3m/FcOd8HHbP0jXeudZTFrDfXr26zguHMxx46lE
+	+44WuWJTELyjRS53+L8K3tGiZkzKY++3Rw01dF/5jhZ1M/CO5mg3JZne0SLKVgnn/SxK
+	o6gbf0eLFEX3rsdbuVkR/Y57pM9QCf3/LP72P5+ToOkKZW5kc3RyZWFtCmVuZG9iago2
+	IDAgb2JqCjMwNjUKZW5kb2JqCjMgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCA0
+	IDAgUiAvUmVzb3VyY2VzIDcgMCBSIC9Db250ZW50cyA1IDAgUiAvTWVkaWFCb3ggWzAg
+	MCA1NzYgNzMzXQo+PgplbmRvYmoKNyAwIG9iago8PCAvUHJvY1NldCBbIC9QREYgL1Rl
+	eHQgXSAvQ29sb3JTcGFjZSA8PCAvQ3MxIDggMCBSIC9DczIgOSAwIFIgPj4gL0ZvbnQg
+	PDwKL0YxLjAgMTAgMCBSID4+ID4+CmVuZG9iagoxMSAwIG9iago8PCAvTGVuZ3RoIDEy
+	IDAgUiAvTiAzIC9BbHRlcm5hdGUgL0RldmljZVJHQiAvRmlsdGVyIC9GbGF0ZURlY29k
+	ZSA+PgpzdHJlYW0KeAGFlE1IFGEYx/+zjQSxBtGXCMXQwSRUJgtSAtP1K1O2ZdVMCWKd
+	fXedHGenmd0tRSKE6Jh1jC5WRIeITuGhQ6c6RASZdYmgo0UQBV4itv87k7tjVL4wM795
+	nv/7fL3DAFWPUo5jRTRgys67yd6Ydnp0TNv8GlWoRhRcKcNzOhKJAZ+plc/1a/UtFGlZ
+	apSx1vs2fKt2mRBQNCp3ZAM+LHk84OOSL+SdPDVnJBsTqTTZITe4Q8lO8i3y1myIx0Oc
+	Fp4BVLVTkzMcl3EiO8gtRSMrYz4g63batMnvpT3tGVPUsN/INzkL2rjy/UDbHmDTi4pt
+	zAMe3AN211Vs9TXAzhFg8VDF9j3pz0fZ9crLHGr2wynRGGv6UCp9rwM23wB+Xi+Vftwu
+	lX7eYQ7W8dQyCm7R17Iw5SUQ1BvsZvzkGv2Lg558VQuwwDmObAH6rwA3PwL7HwLbHwOJ
+	amCoFZHLbDe48uIi5wJ05pxp18xO5LVmXT+idfBohdZnG00NWsqyNN/laa7whFsU6SZM
+	WQXO2V/beI8Ke3iQT/YXuSS87t+szKVTXZwlmtjWp7To6iY3kO9nzJ4+cj2v9xm3Zzhg
+	5YCZ7xsKOHLKtuI8F6mJ1Njj8ZNkxldUJx+T85A85xUHZUzffi51IkGupT05meuXml3c
+	2z4zMcQzkqxYMxOd8d/8xi0kZd591Nx1LP+bZ22RZxiFBQETNu82NCTRixga4cBFDhl6
+	TCpMWqVf0GrCw+RflRYS5V0WFb1Y4Z4Vf895FLhbxj+FWBxzDeUImv5O/6Iv6wv6Xf3z
+	fG2hvuKZc8+axqtrXxlXZpbVyLhBjTK+rCmIb7DaDnotZGmd4hX05JX1jeHqMvZ8bdmj
+	yRzianw11KUIZWrEOOPJrmX3RbLFN+HnW8v2r+lR+3z2SU0l17K6eGYp+nw2XA1r/7Or
+	YNKyq/DkjZAuPGuh7lUPqn1qi9oKTT2mtqttahffjqoD5R3DnJWJC6zbZfUp9mBjmt7K
+	SVdmi+Dfwi+G/6VeYQvXNDT5D024uYxpCd8R3DZwh5T/w1+zAw3eCmVuZHN0cmVhbQpl
+	bmRvYmoKMTIgMCBvYmoKNzkyCmVuZG9iago4IDAgb2JqClsgL0lDQ0Jhc2VkIDExIDAg
+	UiBdCmVuZG9iagoxMyAwIG9iago8PCAvTGVuZ3RoIDE0IDAgUiAvTiAxIC9BbHRlcm5h
+	dGUgL0RldmljZUdyYXkgL0ZpbHRlciAvRmxhdGVEZWNvZGUgPj4Kc3RyZWFtCngBhVJP
+	SBRRHP7NNhKEiEGFeIh3CgmVKaysoNp2dVmVbVuV0qIYZ9+6o7Mz05vZNcWTBF2iPHUP
+	omN07NChm5eiwKxL1yCpIAg8dej7zezqKIRveTvf+/39ft97RG2dpu87KUFUc0OVK6Wn
+	bk5Ni4MfKUUd1E5YphX46WJxjLHruZK/u9fWZ9LYst7HtXb79j21lWVgIeottrcQ+iGR
+	ZgAfmZ8oZYCzwB2Wr9g+ATxYDqwa8COiAw+auTDT0Zx0pbItkVPmoigqr2I7Sa77+bnG
+	vou1iYP+XI9m1o69s+qq0UzUtPdEobwPrkQZz19U9mw1FKcN45xIQxop8q7V3ytMxxGR
+	KxBKBlI1ZLmfak6ddeB1GLtdupPj+PYQpT7JYKiJtemymR2FfQB2KsvsEPAF6PGyYg/n
+	gXth/1tRw5PAJ2E/ZId51q0f9heuU+B7hD014M4UrsXx2oofXi0BQ/dUI2iMc03E09c5
+	c6SI7zHUGZj3RjmmCzF3lqoTN4A7YR9ZqmYKsV37ruol7nsCd9PjO9GbOQtcoBxJcrEV
+	2RTQPAlYFH2LsEkOPD7OHlXgd6iYwBy5idzNKPce1REbZ6NSgVZ6jVfGT+O58cX4ZWwY
+	z4B+rHbXe3z/6eMVdde2Pjz5jXrcOa69nRtVYVZxZQvd/8cyhI/ZJzmmwdOhWVhr2Hbk
+	D5rMTLAMKMR/BT6X+pITVdzV7u24RRLMUD4sbCW6S1RuKdTqPYNKrBwr2AB2cJLELFoc
+	uFNrujl4d9giem35TVey64b++vZ6+9ryHm3KqCkoE82zRGaUsVuj5N142/1mkRGfODq+
+	572KWsn+SUUQP4U5WiryFFX0VlDWxG9nDn4btn5cP6Xn9UH9PAk9rZ/Rr+ijEb4MdEnP
+	wnNRH6NJ8LBpIeISoIqDM9ROVGONA+Ip8fK0W2SR/Q9AGf1mCmVuZHN0cmVhbQplbmRv
+	YmoKMTQgMCBvYmoKNzA0CmVuZG9iago5IDAgb2JqClsgL0lDQ0Jhc2VkIDEzIDAgUiBd
+	CmVuZG9iago0IDAgb2JqCjw8IC9UeXBlIC9QYWdlcyAvTWVkaWFCb3ggWzAgMCA2MTIg
+	NzkyXSAvQ291bnQgMSAvS2lkcyBbIDMgMCBSIF0gPj4KZW5kb2JqCjE1IDAgb2JqCjw8
+	IC9UeXBlIC9DYXRhbG9nIC9PdXRsaW5lcyAyIDAgUiAvUGFnZXMgNCAwIFIgPj4KZW5k
+	b2JqCjIgMCBvYmoKPDwgL0xhc3QgMTYgMCBSIC9GaXJzdCAxNyAwIFIgPj4KZW5kb2Jq
+	CjE3IDAgb2JqCjw8IC9Db3VudCAwIC9EZXN0IFsgMyAwIFIgL1hZWiAwIDczMyAwIF0g
+	L1RpdGxlIChDYW5ldmFzIDEpID4+CmVuZG9iagoxNiAwIG9iago8PCAvQ291bnQgMCAv
+	RGVzdCBbIDMgMCBSIC9YWVogMCA3MzMgMCBdIC9UaXRsZSAoQ2FuZXZhcyAxKSA+Pgpl
+	bmRvYmoKMTggMCBvYmoKPDwgL0xlbmd0aCAxOSAwIFIgL0xlbmd0aDEgNjM1MiAvRmls
+	dGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAG9WHtcU3eWP+c+khCghhAgPO+N14RE
+	QAgIglKJmPAQoSjqJFZsAoQCFaUWGXVGix2tio9PW6vTUdfWnZmujzpekXGCTh1a7dru
+	Tqd2Ou1up92ddto6jx0+ne1qP7ZKsudekJV+Zlz/6Kf3l/P7ncfvcX7f3/kluQcQAGKg
+	F1hwNXcGusAFp0nzS6LvNvd0i7v+NPsQAFYBsCtaux7sjPvgwr8AcAMA+pgHV6xrfaru
+	zbMA9wwB8MVtwUDLZ4GTTwHEX6fxRW2k0E/WigCmPJKntHV2r5UuMNtIXkSyuGJVc0CT
+	x10kuZtkY2dgbZfuIf0XJFMfEFcGOoN1a3t2kHyE5Mldqx7pjnwItL5J8S+/a3Ww6+ff
+	W+kESCCRfYMqpKI8MaCBLmpFKBjTqOo7VIxqYyf04ICfIE8UNLeJWn4IDPyLYOd7IYXL
+	BQEg8i7Rb5U2vDhyhb8EhnBn5L/ZWTRqUCEmXFYKQ7ALDsBJ8vYI8XZYDs/Aa9gBg7gM
+	BuAdzIBpdDYchGA+/BIjkTehFX5E/bvhZdgLp2ifduik7c+H3WiNrCfZRXwTbI78I0yB
+	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
+	c2NyaXB0b3IgL0FzY2VudCA3NzAgL0NhcEhlaWdodCA2ODQgL0Rlc2NlbnQgLTIzMCAv
+	RmxhZ3MgMzIKL0ZvbnRCQm94IFsxNCAtMTkgNjg0IDcxN10gL0ZvbnROYW1lIC9OVklR
+	Tk4rSGVsdmV0aWNhIC9JdGFsaWNBbmdsZSAwIC9TdGVtVgowIC9NYXhXaWR0aCAxNTAw
+	IC9YSGVpZ2h0IDUxMyAvRm9udEZpbGUyIDE4IDAgUiA+PgplbmRvYmoKMjEgMCBvYmoK
+	WyAyNzggMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgNTU2IDAgMCA1
+	NTYgMCAwIDAgMCAwIDAgNTg0IDU4NAowIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDU1
+	NiAwIDAgMCAwIDAgNzIyIF0KZW5kb2JqCjEwIDAgb2JqCjw8IC9UeXBlIC9Gb250IC9T
+	dWJ0eXBlIC9UcnVlVHlwZSAvQmFzZUZvbnQgL05WSVFOTitIZWx2ZXRpY2EgL0ZvbnRE
+	ZXNjcmlwdG9yCjIwIDAgUiAvV2lkdGhzIDIxIDAgUiAvRmlyc3RDaGFyIDMyIC9MYXN0
+	Q2hhciA4MiAvRW5jb2RpbmcgL01hY1JvbWFuRW5jb2RpbmcKPj4KZW5kb2JqCjEgMCBv
+	YmoKPDwgL1RpdGxlIChTYW5zIHRpdHJlKSAvQXV0aG9yICj+/1wwMDBBXDAwMGxcMDAw
+	ZVwwMDB4XDAwMGFcMDAwblwwMDBkXDAwMHJcMDAwZVwwMDAgXDAwMEJcMDAwb1wwMDB1
+	XDAwMOtcMDAwblwwMDBhXDAwMHJcMDAwZCkKL0NyZWF0b3IgKE9tbmlHcmFmZmxlKSAv
+	UHJvZHVjZXIgKE1hYyBPUyBYIDEwLjUuOCBRdWFydHogUERGQ29udGV4dCkgL0NyZWF0
+	aW9uRGF0ZQooRDoyMDA5MDkxNTEyMDEwM1owMCcwMCcpIC9Nb2REYXRlIChEOjIwMDkw
+	OTE1MTIwMTAzWjAwJzAwJykgPj4KZW5kb2JqCnhyZWYKMCAyMgowMDAwMDAwMDAwIDY1
+	NTM1IGYgCjAwMDAwMTAwNDIgMDAwMDAgbiAKMDAwMDAwNTM1OSAwMDAwMCBuIAowMDAw
+	MDAzMTgxIDAwMDAwIG4gCjAwMDAwMDUyMTAgMDAwMDAgbiAKMDAwMDAwMDAyMiAwMDAw
+	MCBuIAowMDAwMDAzMTYxIDAwMDAwIG4gCjAwMDAwMDMyODUgMDAwMDAgbiAKMDAwMDAw
+	NDMxMCAwMDAwMCBuIAowMDAwMDA1MTc0IDAwMDAwIG4gCjAwMDAwMDk4NjggMDAwMDAg
+	biAKMDAwMDAwMzM5NSAwMDAwMCBuIAowMDAwMDA0MjkwIDAwMDAwIG4gCjAwMDAwMDQz
+	NDYgMDAwMDAgbiAKMDAwMDAwNTE1NCAwMDAwMCBuIAowMDAwMDA1MjkzIDAwMDAwIG4g
+	CjAwMDAwMDU0ODYgMDAwMDAgbiAKMDAwMDAwNTQwNyAwMDAwMCBuIAowMDAwMDA1NTY1
+	IDAwMDAwIG4gCjAwMDAwMDk0OTEgMDAwMDAgbiAKMDAwMDAwOTUxMiAwMDAwMCBuIAow
+	MDAwMDA5NzMyIDAwMDAwIG4gCnRyYWlsZXIKPDwgL1NpemUgMjIgL1Jvb3QgMTUgMCBS
+	IC9JbmZvIDEgMCBSIC9JRCBbIDw1YzM5Y2MyNThiOTRkNDk2YWE1OWU0MDlhMDIwYjIx
+	Nz4KPDVjMzljYzI1OGI5NGQ0OTZhYTU5ZTQwOWEwMjBiMjE3PiBdID4+CnN0YXJ0eHJl
+	ZgoxMDMzMAolJUVPRgoxIDAgb2JqCjw8L0F1dGhvciAoQWxleGFuZHJlIEJvdVwzNTNu
+	YXJkKS9DcmVhdGlvbkRhdGUgKEQ6MjAwOTA1MzExNjE3MDBaKS9DcmVhdG9yIChPbW5p
+	R3JhZmZsZSA1LjIpL01vZERhdGUgKEQ6MjAwOTA5MTUxMjAwMDBaKS9Qcm9kdWNlciAo
+	TWFjIE9TIFggMTAuNS44IFF1YXJ0eiBQREZDb250ZXh0KS9UaXRsZSAoZXhvMS00Lmdy
+	YWZmbGUpPj4KZW5kb2JqCnhyZWYKMSAxCjAwMDAwMTA5MjggMDAwMDAgbiAKdHJhaWxl
+	cgo8PC9JRCBbPDVjMzljYzI1OGI5NGQ0OTZhYTU5ZTQwOWEwMjBiMjE3PiA8NWMzOWNj
+	MjU4Yjk0ZDQ5NmFhNTllNDA5YTAyMGIyMTc+XSAvSW5mbyAxIDAgUiAvUHJldiAxMDMz
+	MCAvUm9vdCAxNSAwIFIgL1NpemUgMjI+PgpzdGFydHhyZWYKMTExMzQKJSVFT0YK
+	</data>
+	<key>QuickLookThumbnail</key>
+	<data>
+	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
+	EMIS3BTyFzMZZBunHeogKyJyJKcm4SkPKzotRy82MR0zBzTuNtI4sjqMPFk+IT/mQZ5D
+	UkT9Rp1IN0nKS1lM1E5VT8JRMlKZU/tVWVa6WA5ZX1qwW/RdNF5yX6Zg3mIRY0Zkc2Wd
+	ZsJn5mkKailrRmxebXZujW+gcK9xv3LQc+F08XYAdw54HnkwejZ7GXvufMJ9ln5xf0iA
+	IoD9gdqCu4OehICFaYZThz+IL4khihaLDYwFjP+N/Y7+j/+RAZIDkwaUBpT7leKWxper
+	mJKZd5pim1GcPp0tnh6fEKAEoPih7KLgo9Wkx6W6prCnnaiNqXyqbKtXrECtKK4Prv6w
+	ALEHsguzDrQNtQy2C7cHt/+49Lnput670LzBvbC+n7+KwHfBZsJVw0TENcUlxhjHDcgC
+	yPjJ6crAy4jMTM0Ozc/OkM9P0A7QydGE0j/S+dOv1GbVHdXT1ovXQtf42K3ZYtoY2s/b
+	htw93PTdsN5l3wzfmeAk4K3hOeHG4lTi4+N15AfkmOUs5cDmU+bm53noDOif6TLpxOpT
+	6uPrdOwF7JPtIe2v7jvuxe9S7+DwavDz8XryAvKM8xbzoPQo9K71MvW19i/2ovcN92b3
+	vvgL+EX4fvi4+PH5ZPne+tT8ff6L//8AAAAkAHwBAgGQAkADFAP+BSMGXAe5CTsK0gyL
+	DmMQShI6FEIWWhh9GqEcxx7uIR4jSyVkJ4QplCtzLSQuyDBxMhozwjVpNw44qjpCO9o9
+	bT78QIhCDUOLRQVGfEfnSVZKtUwUTW5Ow1AWUWpSslP3VT1WdlevWONaE1tEXG1dm17D
+	X+ZhBmIkY0NkX2V4Zo5npWi8ac9q4WvzbQhuHm8ycEpxXHJ2c5B0oXWIdmV3PHgXePV5
+	03qxe5F8cH1Wfjp/HoAEgOyB1oLAg6uEloWChm6HWohIiTeKJYsSi/+M643Vjr+Po5CH
+	kWySUpM3lB+VCpXzlt6Xypi2maSakZt/nGydWZ5FnzKgH6EKofSi4KPNpLSlm6aEp2io
+	WqlmqnuriKyaraSura+9sMWxzLLOs9G01rXYttm32bjbudi62bvevOG95r7vv/XBAMIN
+	wxvEKsUvxh3G+cfPyKTJespRyynMAMzWzazOg89a0C/RA9HX0qvTf9RT1SXV9Na/143Y
+	Wtkm2fDauNuC3EjdB9223mTfEd/A4G/hH+HN4nrjKePX5IPlLuXW5n3nJOfJ6G7pEemw
+	6lHq8euO7Crsxu1h7fvuke8o78LwWPDs8X/yEvKo8z7z0vRi9PH1gfYQ9p73JPec+Bj4
+	oPkx+dT6kftn/GP9hP6b/yD/WP+P/8f//wAAABUASgCZAQEBcQH1Ao4DPAQABNsF0wbb
+	CAAJLAp3C8cNJQ6KD/oRcRLlFFkVyxc4GKQaChtnHL4eCx9QIJgh3yMnJGolqSbjKBsp
+	Typ+K6ss0i32LxYwMjFLMlYzZzRwNXc2fDd8OHo5eTpyO2g8ZT1kPmY/ZkBfQVpCUkNM
+	REFFM0YhRxBIAEjuSdlKw0uuTJhNgE5mT09QOFEkUg5S+VPkVNBVvlakV3pYSlkVWeJa
+	sVuAXE9dHF3qXrpfiWBWYSVh9GLCY5FkYGUsZflmxmeRaF9pLGn4asNrjWxWbRtt1W6G
+	bzBv2XCCcSZxzXJ1cxpzv3RldQl1r3ZVdvp3oXhJePJ5m3pIevV7o3xTfQZ9un5tfyR/
+	24CVgVOCD4LMg4qERIUAhb6Ge4c3h/OIr4ltiiqK54ukjGKNHo3bjpuPWpAbkNuRm5Je
+	kyGT5JSolWuWNJcCl9GYn5lvmkCbE5vlnLedi55inzmgEaDqocWioaOCpGSlRaYnpwmn
+	7ajTqbqqoauIrHStXq5JrzewI7EPsgCy8rPjtNm1zbbDt7e4tLmruqW7oLybvZi+l7+T
+	wI3BisKHw4bEgMV5xnXHcMhmyWbKesuTzKfNts66z8HQwdHA0snT1dTd1fPXGthK2YPa
+	yNwz3a7fSuEF4ubk+udi6g/tL/Dn9ZL7pf//AABuZGluAAAAAAAABjYAAJVGAABWzwAA
+	UqkAAJFOAAAoEAAAFWAAAFANAABUOQAC3CgAAqj1AAFzMwADAQAAAgAAABgAMgBNAGYA
+	fgCWAK4AxgDdAPQBDAEiAToBUAFoAX8BlwGuAcYB3wH4AhACKAJCAlwCdgKQAqsCxgLi
+	Av8DGwM4A1UDdAOTA7MD0wPzBBUENwRaBH0EowTJBPIFHAVHBXMFnwXMBfkGKAZXBocG
+	uAbpBxwHUAeGB70H9AgsCGYIogjeCRwJWwmcCd8KIwppCrAK+QtDC5IL4QwwDIUM2g0w
+	DYkN5A5BDqAO/g9gD8YQLRCUEQARcBHhElQSzRNEE78UPBS5FTsVvxZHFtIXXRfrGH0Z
+	ERmpGkMa3ht9HCEcxR1sHhIevB9nIBUgxSF0IiUi4iPGJLIloSaKJ3koZylXKkQrMCwg
+	LQst9i7hL8owszGcMoMzbTRVNTs2IjcKN/Q43jnLOr47xzzbPe4/AUAZQSlCOUNNRF9F
+	ckaFR5hIrknFSt1L+00ZTjVPXlCFUbBS2lQRVUhWhVfEWOZZ/1sgXEFdaF6VX8Bg8GIm
+	Y2RkpGXlZytodmnFaxZsb23FbxpwdHHLcyZ0gHXXdzB4iXnje3J9I37igKWCboQ7hhWH
+	9YnVi8aNuI+vkaaToZWnl62ZsZu4ncOfw6HfpJKnW6oYrNOvgLI0tN+3mbpUvRS/38K8
+	xZDIfstwznvRddSR17va3d4D4Unkp+iG7Zb1dfk0+tf77fzZ/ab+of//AAAAFgAxAEsA
+	ZgB+AJcAsADIAOAA+AERASkBQQFZAXEBigGjAb0B1gHwAgoCJAI+AlkCdAKQAqwCyQLm
+	AwQDIgNAA18DfwOeA8AD4gQEBCcESgRvBJYEwATvBR8FUQWEBbcF6wYgBlYGjAbEBvwH
+	NgdxB64H7AgqCGoIqwjuCTEJdgm9CgUKTwqbCugLNguIC9sMLgyGDN8NOQ2WDfUOVQ64
+	DxoPgQ/rEFYQwhE0EacSHBKVExATixQMFIsVDhWVFh4Wqxc5F8gYWxjwGYkaIxq+G1wb
+	/hyhHUUd6R6OHzcf3iCLITQh3yKLI14kPyUoJg4m9CfeKMcptCqcK4gsdi1jLlEvQDAv
+	MSIyFDMJNAE09zXvNuo36DjpOe469DwFPRg+Kz9AQFhBa0KBQ5pEsUXMRuVIAUkfSj9L
+	YUyITaxO1lAEUTNSYFOXVNJWC1dNWHhZhFqTW6tcvl3cXvxgFmE6YmBjjmS9ZepnHGhS
+	aYpqwmwBbT5ud2+zcPByKHNndKF12XcSeEt5hXrffGJ993+PgSeCv4RYhfmHm4k7iuGM
+	jo48j+2RoJNXlRmW5Ziumn6cVZ4yoA6h/qQopl+okqrFrQGvQrGDs9C2L7iSuwK9ecAH
+	wpTFNsfeypLNX9Ae0vzV5tjE263eueHG5N/oj+vZ7pzw5/LU9HP1+Pe0//8AAAAlAE8A
+	eACgAMcA7AESATYBXAGAAaUBywHxAhgCPwJnAo8CuQLkAxADPgNsA50DzgQCBDcEbgSo
+	BOMFIgVjBaUF6AYtBnMGuwcFB1IHoQfyCEUImwjzCU0JqwoLCm4K1As8C6wMGwyPDQYN
+	gA3+DoAPAg+KEBcQohEtEbkSRxLcE3EUCxSlFUUV6BaRFzsX5hiXGUsaARq6G3YcNxz4
+	HbsefR9EIAsg1iGfImsjTiQ9JTQmKiciKB0pHCodKx4sJy0uLjovSTBZMXAyiDOmNMM1
+	5DcKODQ5YzqbO/c9aT7gQGRB5UNyRQFGlkgsScZLX0z6To9QKFG8U0tU4FZvV/5ZhVsS
+	XKBeOF/LYWNi/2ShZkBn42mKazNs4m6LcDlx5XOYdUV29Xioel18BH2kf0qA7oKShDSF
+	3IeDiSSKxoxrjg2PrZFIkuGUfpYel7uZVZrxnI6eK5/CoWGi+6SVpjan0qlnqwWsma4z
+	r8uxabL4tJW2LLfEuV269LyLvii/ycFnwwfEpMZPx/nJnstMzQLOndAb0Z7TKtS/1mfY
+	CNm522vdDt6u4Ffh7ONt5OTmU+e56RTqUOuD7K3txu7R79TwxvG18pDzbPQs9Ov1nvZI
+	9vL3iPgc+K/5L/mq+iT6nvsC+2b7yvwu/If80f0b/WX9r/36/k3+uf8m/5L//wAAZGVz
+	YwAAAAAAAAAKQ29sb3IgTENEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG1sdWMA
+	AAAAAAAAEgAAAAxuYk5PAAAAEgAAAOhwdFBUAAAAFgAAAPpzdlNFAAAAEAAAARBmaUZJ
+	AAAAEAAAASBkYURLAAAAHAAAATB6aENOAAAADAAAAUxmckZSAAAAEgAAAVhqYUpQAAAA
+	DgAAAWplblVTAAAAEgAAAXhwbFBMAAAAEgAAAYpwdEJSAAAAGAAAAZxlc0VTAAAAEgAA
+	AbR6aFRXAAAADgAAAcZydVJVAAAAJAAAAdRrb0tSAAAADAAAAfhkZURFAAAAEAAAAgRu
+	bE5MAAAAFgAAAhRpdElUAAAAFAAAAioARgBhAHIAZwBlAC0ATABDAEQATABDAEQAIABh
+	ACAAQwBvAHIAZQBzAEYA5AByAGcALQBMAEMARABWAOQAcgBpAC0ATABDAEQATABDAEQA
+	LQBmAGEAcgB2AGUAcwBrAOYAcgBtX2mCcgAgAEwAQwBEAMkAYwByAGEAbgAgAEwAQwBE
+	MKsw6TD8ACAATABDAEQAQwBvAGwAbwByACAATABDAEQASwBvAGwAbwByACAATABDAEQA
+	TABDAEQAIABDAG8AbABvAHIAaQBkAG8ATABDAEQAIABjAG8AbABvAHJfaYJybbJmdphv
+	eTpWaAQmBDIENQRCBD0EPgQ5ACAEFgQaAC0ENAQ4BEEEPwQ7BDUEOc7st+wAIABMAEMA
+	RABGAGEAcgBiAC0ATABDAEQASwBsAGUAdQByAGUAbgAtAEwAQwBEAEwAQwBEACAAYwBv
+	AGwAbwByAGkAAG1tb2QAAAAAAAAGEAAAnIQAAAAAw5XsoQAAAAAAAAAAAAAAAAAAAAB0
+	ZXh0AAAAAENvcHlyaWdodCBBcHBsZSwgSW5jLiwgMjAwOQA=
+	</data>
+	<key>ReadOnly</key>
+	<string>NO</string>
+	<key>RowAlign</key>
+	<integer>1</integer>
+	<key>RowSpacing</key>
+	<real>36</real>
+	<key>SheetTitle</key>
+	<string>Canevas 1</string>
+	<key>SmartAlignmentGuidesActive</key>
+	<string>YES</string>
+	<key>SmartDistanceGuidesActive</key>
+	<string>YES</string>
+	<key>UniqueID</key>
+	<integer>1</integer>
+	<key>UseEntirePage</key>
+	<false/>
+	<key>VPages</key>
+	<integer>1</integer>
+	<key>WindowInfo</key>
+	<dict>
+		<key>CurrentSheet</key>
+		<integer>0</integer>
+		<key>ExpandedCanvases</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Canevas 1</string>
+			</dict>
+		</array>
+		<key>Frame</key>
+		<string>{{365, 4}, {710, 874}}</string>
+		<key>ListView</key>
+		<true/>
+		<key>OutlineWidth</key>
+		<integer>142</integer>
+		<key>RightSidebar</key>
+		<false/>
+		<key>ShowRuler</key>
+		<true/>
+		<key>Sidebar</key>
+		<true/>
+		<key>SidebarWidth</key>
+		<integer>120</integer>
+		<key>VisibleRegion</key>
+		<string>{{14, 0}, {561, 705}}</string>
+		<key>Zoom</key>
+		<real>1</real>
+		<key>ZoomValues</key>
+		<array>
+			<array>
+				<string>Canevas 1</string>
+				<real>1</real>
+				<real>4</real>
+			</array>
+		</array>
+	</dict>
+	<key>saveQuickLookFiles</key>
+	<string>YES</string>
+</dict>
+</plist>

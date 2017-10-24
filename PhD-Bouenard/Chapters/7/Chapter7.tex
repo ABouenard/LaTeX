@@ -1,0 +1,88 @@
+\chapter{Conclusion and Future Work}
+\markboth{Conclusion and Future Work}{Conclusion and Future Work}
+\label{chapter:Conclusion}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	\section{Conclusion}
+	\label{sec:Conclusion_Conlusion}
+
+This dissertation has proposed a system for synthesizing percussion performances in which a virtual percussionist controls sound synthesis processes. It includes the analysis of percussion motion that has then oriented the design of a physics-based model for controlling and animating a virtual percussionist. We have also presented a physics-based model of a drum membrane that can be controlled by the actions of the animated percussionist, as well as an architecture for easying the real-time interaction between gesture and sound simulations. We have finally conducted an informal evaluation of the musical possibilities of the proposed system.\\
+
+We first propose (chapter \ref{chapter:Analysis}) a protocol for capturing and analysing percussion (timpani) performances. The resulting motion database makes available data for various timpani playing techniques, such as mallet grips (\emph{French} and \emph{German}), various playing modes (\emph{legato}, \emph{tenuto}, \emph{accent}, \emph{vertical accent} and \emph{staccato}) as well as different beat impact locations (\emph{one-third}, \emph{center} and \emph{rim}).
+
+The analysis of the motion data focuses especially on percussion grips and playing modes, as a mean of highlighting the importance of using mallet extremity trajectories to conduct the synthesis of timpani performances. The analysis methodology has consisted in the extraction of motion parameters for representing the percussion playing techniques under study. This has led to the determination of a set of parameters solely regarding mallet extremity trajectories, both for the discrimination of percussion grips and playing modes. The evaluation of such a parameterization is proved to be consistent, as attested by the high recognition rates obtained trough a classification/recognition scheme.\\
+
+We present in chapter \ref{chapter:Synthesis} a physically-enabled environment in which a virtual percussionist can be physically controlled and interact with a physics-based model of a drum membrane.
+
+The physics-based control from percussion motion data guarantees to maintain the main characteristics of human motion data while keeping the physical coherence of the interaction with the simulated instrument. More specifically, we have presented a hybrid control mode combining \emph{IK} and \emph{ID} controllers that leads to a more intuitive and consistent way of editing the motion to be simulated only from mallet extremity trajectories.
+
+The proposed asynchronous client-server architecture of our system takes advantage of motion and sound physics formulations, generating in real-time virtual percussion performances that can be parameterized from the motion to the sound.\\
+
+Chapter \ref{chapter:Application} finally explores the musical possibilities of the proposed system by the simulation of two types of percussion exercises: validation and extrapolation exercises. These percussion exercises have been evaluated by a percussion professor.
+
+Validation exercises analyse the articulation and simulation of gesture units of the same type. The evaluation of these exercises has underlined the accuracy and naturalness of the resulting simulations, both in terms of playing modes and impact locations
+
+Extrapolation exercises explore the articulation and simulation of heterogenous gesture units, exercises that were not recorded initially during the collection of motion capture data. The evaluation underlines the quality of the simulated articulation between these playing modes, as well as for the resulting sounds.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	\section{Future Work}
+	\label{sec:Conclusion_FutureWork}
+
+Regarding future work, there are many avenues for extending the work presented in this dissertation. These perspectives concern the analysis of additional percussion playing strategies, as well as the development of other synthesis models to improve the overall realism of the resulting percussion simulations. Such supplementary works would finally be of great interest for proposing enhancements to the musical possibilities of the presented system.
+
+
+		\subsection{Analysis}
+		\label{subsec:Conclusion_FutureWork_Analysis}
+
+The analysis of percussion motion data presented in this dissertation has particularly focused on grips and playing modes. This analysis might take into account a larger set of timpani playing variations.\\
+
+Among these additional playing techniques, gesture dynamics such as \emph{pp}, \emph{mf} and \emph{ff} as well as tempo variations could be of great interest. The study of these playing variations could lead to identify the motion mechanisms that are involved in real percussion performances for articulating gesture features of heterogenous natures. For instance, such work has been performed in \citeIPA{rasamimanana:PhD08} and have underlined the effect of articulation of bowed-string movements under various playing conditions. 
+
+Another specificity related to timpani performance is the fact that timpani performers usually play on a drum set composed of several timpani. The capture and study of percussion performances where timpanists are playing several instruments could lead to the identification of motion parameters characterizing the switching from a timpani to another, as well as balance strategies.\\
+
+Other features related to percussion performances could be captured as well. Among them, the capture of finger motion data could be of interest for analysing the effect of percussion grips (\emph{French} or \emph{German}) on the subtle grasp mechanisms occuring in the finger-mallet system. These finger motion data could be of different natures, either purely kinematic (orientation and position) or dynamic by the use of pressure sensors for example.
+
+Finally, dynamic features that are not taken into account in our work is the capture of beat impact forces. This could lead to the identification of gesture-sound couplings, and could be useful for comparing real mechanisms to those simulated by our system.
+
+
+		\subsection{Synthesis}
+		\label{subsec:Conclusion_FutureWork_Synthesis}
+
+As our synthesis system is strongly related to motion capture data, the integration of additional models could benefit from the availability of a larger set of timpani playing conditions. Other models could also be involved for enhancing the realism of the resulting percussion performances.\\
+
+The availability of motion data regarding both grip mechanisms and the switching from a timpani instrument to another leaves room to integrate additional models in our system.
+
+Motion data and analysis of mallet grasp strategies could be involved in the design of a physics-based model of a hand. Related achievements regarding the simulation of grasp mechanisms \citeCGA{kry:PhD05, kry:TOG06} appear promising for applying such strategies to the case of mallet grasps.
+
+Moreover, motion data concerning the switching from timpani instruments to another could be used for design balance controllers in our synthesis framework. Such balance controllers should particularly take care of the orientation of the body as well as the beat impact location as regards to the timpani instrument to be played. The simulation of such task-oriented balance strategies would show advances regarding motor tasks that are usually not addressed, and could be inspired by recent works \citeCGA{macchietto:TOG09, shiratori:SCA09}.\\
+
+Integrating a physics-based hand model in our synthesis system might enhance the realism of the resulting percussion simulations. More generally, proposing a more accurate physics-model of the virtual character could have great benefits to that mean. Especially, one research problem that has not been addressed in this dissertation is the tuning of the mechanical joints composing the virtual character model. At the moment, there is no reliable and automatic method for tuning such mechanical joints apart from heuristic techniques \citeCGA{zordan:SCA02} or analytical solutions only valid for upper-body motion \citeCGA{allen:SCA07}. Apart from the interest of solving this research question for the \emph{Computer Animation} community, providing a method for automatically tuning mechanical joints could be of great interest in a musical perspective. It could indeed propose a dynamic interpretation of the differences in posture control strategies occuring in percussion performances. For instance, such automatic determination could be an interpretation of the stiffness nature of \emph{German}-related performances compared to \emph{French}-related ones mentioned in chapters \ref{chapter:Analysis} and \ref{chapter:Application}.
+
+Other further developments that could improve the overall realism of the simulated percussion performances are related to the sound synthesis part of this work. The drum model does not feature a resonance board, so that the resulting synthesized sounds are characterized by a somewhat metallic nature. Future works include therefore the modeling of a resonance board associated to the drum membrane model. This would involve the modeling of the radiation of the pressure load inside the resonance board after a beat impact on the drum membrane, as it has been shown that this is a preponderant mechanism of energy loss in the case of timpani \citeIPA{rossing:SA82}.
+
+Finally, our system simulates the control of sound synthesis processes by the actions of the animated virtual percussionist. A future avenue would consist in moving from this \emph{control} mechanism to an extended \emph{interaction} scheme in which the sound can influence the gesture simulation. Such interaction scheme would involve the simulation of the virtual performer actions (gestures) as regards to the tension and vibration properties of the timpani model.
+
+
+		\subsection{Musical Applications}
+		\label{subsec:Conclusion_FutureWork_MusicalApplications}
+
+In the previous sections, we detailed how this dissertation can be extended, regarding both the analysis and synthesis of percussion performances. Such future works may improve the musical application possibilities of our system, especially concerning two main usecases that it provides to users. The first application is based on the proposition of pedagogical and composition tools, whereas the second involves such synthesis system during live performances.\\
+
+%The first application is a means of providing a tool that could be used both in terms of musical pedagogy and composition. %Such application could be of the form of a user interface in which users parameterize the percussion performance to be simulated from the motion to the sound.
+
+Our system is based on a motion capture database that takes into account many playing conditions, such as percussion grips, playing modes and dynamics, as well as beat locations. These constitute a set of playing conditions that percussion professors could show to students for demonstrating percussion techniques. Such application is motivated by the fact that percussion professors have no other choice for demonstrating a technique than performing it and then judge students' aptitude in mimicing it. Such pedagocial tool combined with an analysis of motion data as proposed in chapter \ref{chapter:Analysis} can be used for demonstrating percussion techniques, as well as pointing out which motion features the students have to focus on.
+
+Moreover, the availability of heterogenous motion data from percussion performances can also be used as a composition process. It has been  illustrated in chapter \ref{chapter:Application} by the definition of gesture scores that can be generated by our system. A fundamental need for this composition application would be a user interface through which users could select and articulate the gesture units of their choice, as well as modifying the tempo, gesture dynamics and beat locations. The motion parameters extracted from mallet extremity trajectories (chapter \ref{chapter:Analysis}) could also be an intuitive motion representation for making available to users the choice to specify their own gesture units. Users might manipulate such patterns characterizing mallet trajectories that could then be used for automatically reconstructing the whole mallet trajectories.\\
+ 
+%The second application is related to the use of such synthesis system in live performances. Such interactive performances could involve real percussion performers interacting with our system for proposing mixed real/virtual percussion performances.
+
+The evaluation of the motion parameters involved in chapter \ref{chapter:Analysis} can be seen as first theoretical attempt to provide recognition mechanisms of real percussion playing conditions. We have shown that it is possible to recognize with a high confidence percussion grips as well as playing modes. A future avenue of the analysis of percussion playing techniques is to extend the identification of parameters and recognition mechanisms to a larger set of playing conditions (beat impact locations, gesture dynamics). It should be noted that in chapter \ref{chapter:Analysis} we have only focused on motion parameters for discriminating between playing variations. Sound parameters could also be used to that mean. Once the identification of adequate parameters will be achieved, such live recognition-interaction application involves two technological obstacles. The first one is to provide recognition mechanisms that can be processed in \emph{real-time}. A second issue is the specification of interaction rules between real/virtual performers. Such rules could be inspired by research works related to the automatic music composition and interactive performance areas.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
